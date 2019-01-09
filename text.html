@@ -1,29 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
-</head>
+<html>
 <body>
 
-<nav class="navbar">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
-    </div>
-    <ul class="nav navbar-nav navbar-right">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Page 2</a></li>
-      <li><a href="#">Sign Up</a></li>
-      <li><a href="#">Login</a></li>
-    </ul>
-  </div>
-</nav>
+<p id="demo"></p>
+
+<script>
+
+let i = 0;
+let txt = 'web developer ';
+const speed = 300;
+
+function makeRandom() {
+  const randomNumber = Math.floor(Math.random()*4);
+  if(randomNumber === 0) {
+    txt = 'web developer ';
+  } else if(randomNumber === 1) {
+    txt = 'fullstack developer ';
+  } else if(randomNumber === 2) {
+    txt = 'superstar ';
+  } else if(randomNumber === 3) {
+    txt = 'hot developer ';
+  }
+}
+
+function typeWriter() {
   
-<div class="container">
-</div>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  if(i < txt.length){
+    document.getElementById("demo").innerHTML += txt.charAt(i);  
+    setTimeout(typeWriter, speed);
+    i++;
+  }
+  if(i === txt.length){
+    document.getElementById("demo").innerHTML = "";
+    i = 0;
+    makeRandom();
+  }
+}
+
+function init() {
+  typeWriter();
+}
+
+init();
+</script>
 
 </body>
 </html>
