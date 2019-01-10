@@ -22,7 +22,6 @@ body {
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);                                                                   
-    font-size:5rem;
     color: white;
     z-index: 2;
     text-align: center;
@@ -34,4 +33,20 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.4);                                                                 
     z-index:1;
+}
+
+#startbtn {
+    position: absolute;
+    top:80%;
+    left:50%;
+    transform: translate(-50%, -50%);                                                                   
+    font-size:5rem;
+    color: white;
+    z-index: 2;
+    text-align: center;
+}
+
+#viewworksbtn {
+    border: 1px solid white;
+    color: white;
 }
