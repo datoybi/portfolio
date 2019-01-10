@@ -4,8 +4,12 @@
   <meta charset="utf-8">
   <title>Yun dasom</title>
   <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="index.css" rel="stylesheet">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <script src="./typed.min.js"></script>
+
     <!--Navigation-->
     <nav class="navbar navbar-expand-sm fixed-top bg-light navbar-light justify-content-center">
         <div class="container-fluid">
@@ -31,7 +35,7 @@
     <div>
          <div id="home" class="container d-flex h-100 align-items-center" style="padding-top:400px; padding-bottom:400px;">
             <div class="mx-auto text-center">
-                <h1 class="text-black-50 mx-auto mt-2 mb-5">Hello, I'm YUN DASOM. I'M a full-stack web developer</h2>
+                <h1 class="text-black-50 mx-auto mt-2 mb-5">Hello, I'm YUN DASOM. <br> I'm a <span id="typed"></span></h2>
                 <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
             </div>
         </div>
@@ -52,7 +56,7 @@
         </div>
                         
     </div>
-    
+    <script src="./js/typedWriter.js"></script>
     <script src="./bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
