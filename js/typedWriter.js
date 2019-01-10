@@ -5,3 +5,14 @@ var typed = new Typed('#typed', {
     backDelay: 2000,
     backSpeed: 25
 });
+
+const viewworksbtn = document.querySelector("#viewworksbtn");
+const span = viewworksbtn.querySelector("span");
+
+viewworksbtn.addEventListener("mouseover", function() {
+     span.classList.add("rotate");
+});
+
+viewworksbtn.addEventListener("mouseout", function() {
+    span.classList.remove("rotate");
+});

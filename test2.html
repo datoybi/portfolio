@@ -4,16 +4,14 @@
         <link rel="stylesheet" href="text.css"/>
     </head>
     <body>
-        <script src="./js/typed.min.js"></script>
-    
-        <span id="typed"></span>
+        <span> →</span>
 
         <script>
-             var typed = new Typed('#typed', {
-                strings: ["fullstack developer", "web developer", "hot developer"],             
-                typeSpeed: 50,
-                loop: true
-            });
+            const span = document.querySelector("span");
+
+            span.addEventListener("onmouseover", function(){
+                span.innerText = "↓";
+            })
         </script>
     </body>
 </html>
