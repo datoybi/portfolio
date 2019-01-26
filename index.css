@@ -22,6 +22,11 @@ body {
     padding: 0;
  }
 
+ .navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+ }
+
 #home {
     position: relative;
     background-image: url(./img/homebg.jpg);                                                               
@@ -92,3 +97,22 @@ body {
 .rotate {
     transform: rotate(90deg);
 }
+
+#navbar {
+    background-color: #1B242F;
+    position: fixed;
+    top: -500px;
+    width: 100%;
+    display: block;
+    transition: top 0.6s;
+    border-bottom: 3px solid #22a6b3;
+  }
+  
+  .nav-item a:hover {
+      color: #22a6b3;
+  }
+
+  #navbar .navbar-nav > .nav-item > .nav-link.active,
+  #navbar .navbar-nav > li.nav-item > a.nav-link:focus.active { 
+    color: #22a6b3 !important;
+ }
