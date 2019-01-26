@@ -8,7 +8,7 @@ body {
     user-select: none;
     */
  }
-
+ 
  a {
     color: white;
  }
@@ -16,6 +16,10 @@ body {
  a:hover {
     text-decoration: none;
     color: white;
+ }
+
+ .btn {
+    padding: 0;
  }
 
 #home {
@@ -57,7 +61,6 @@ body {
 #viewworksbtn {
     border: 1.5px solid white;
     color: white;
-    padding: 10px 36px 10px 20px;
     font-size: 22px;
     margin-right: -15px;
 }
@@ -81,10 +84,11 @@ body {
     transition-duration: 0.3s;
 }
 
-.rotate {
-    transform: rotate(90deg);
+#viewworksbtn a {
+    padding: 10px 40px 10px 25px;
+    display: block;
 }
 
-#viewworksbtn > a {
-    transition-duration: 5s;
+.rotate {
+    transform: rotate(90deg);
 }
