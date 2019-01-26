@@ -2,60 +2,59 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Yun dasom</title>
+  <title>Portfolio | Yun dasom</title>
+  <link rel="icon" href="./img/titleicon.png" type="image/gif">
   <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="index.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body>
     <script src="./typed.min.js"></script>
 
-    <!--Navigation-->
-    <nav class="navbar navbar-expand-sm fixed-top bg-light navbar-light justify-content-center">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#home">Yundasom</a>
-            <ul class="navbar-nav">
-                <il class="nav-item">
-                    <a class="nav-link" herf="#home">HOME</a>
-                </il>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">PORTFOLIO</a>
-                </li>
-                <li class="nav-item">
-                   <a class="nav-link"href="#contact">CONTACT</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    
-    <!--home section-->
-    <div>
+        <!--home section-->
          <div id="home" class="align-items-center">
             <div id="hometext" class="mx-auto text-center">
                 <h1 class="display-4 text-white-50 mx-auto mt-2 mb-5">Hello, I'm DASOM YUN. <br> I'm a <span id="typed"></span></h2>
             </div>
             <div id="startbtn">
-                <div id="viewworksbtn" class="btn btn-lg">view my works <span class="material-icons" font-size="18px">&#xe5c8;</span>
+                <div id="viewworksbtn" class="btn btn-lg">
+                    <a href="#about" >view my works <span class="material-icons" font-size="18px">&#xe5c8;</span></a>
                 </div>
             </div>
             <div class="homeimg-cover"></div>
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-sm sticky-top bg-light navbar-light justify-content-center navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#home">DasomYun</a>
+                </div>
+                <div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#home">HOME</a>
+                            </il>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"href="#contact">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <!--about section-->
         <div id="about" class="container-fluid bg-warning" style="padding-top:400px; padding-bottom:400px;">
             <h1>Section about</h1>
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
@@ -71,9 +70,14 @@
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         </div>
-                        
-    </div>
+
     <script src="./js/index.js"></script>
     <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+        });
+    </script>
 </body>
 </html>

@@ -17,4 +17,17 @@ viewworksbtn.addEventListener("mouseout", function() {
     span.classList.remove("rotate");
 });
 
-s
+$(document).ready(function() {
+    $('body').scrollspy({target: ".myNavbar", offset:30});
+    $("#myNavbar a, .navbar-header a, #viewworksbtn a").on('click', function(event){
+        if(this.hash !== ""){
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 500, function(){
+                window.location.hash = hash;
+            });
+        } 
+      });
+    });
