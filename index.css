@@ -27,10 +27,6 @@ body {
     text-align: center;
 }
 
-#hometext h1 {
-    font-family: 'Basic', sans-serif;
-}
-
 .homeimg-cover {
     position: absolute;
     height: 100%;
