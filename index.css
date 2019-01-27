@@ -101,18 +101,68 @@ body {
 #navbar {
     background-color: #1B242F;
     position: fixed;
-    top: -500px;
+    top: -600px;
     width: 100%;
     display: block;
     transition: top 0.6s;
     border-bottom: 3px solid #22a6b3;
+    z-index:1;
   }
   
   .nav-item a:hover {
       color: #22a6b3;
   }
 
-  #navbar .navbar-nav > .nav-item > .nav-link.active,
-  #navbar .navbar-nav > li.nav-item > a.nav-link:focus.active { 
-    color: #22a6b3 !important;
+#about-wrapper {
+    width: 100%;
+    text-align: center;
+    height: 200px;
+    border: 1px solid green;
+}
+
+ #every-title {
+     font-family: 'Roboto', sans-serif;
+     color: #444649;
+     font-size : 40px;
+     position: relative;
+     padding-top: 100px;
+     display: inline-block;
+     border-bottom: 3px solid #444649;
  }
+
+ #about-profile {
+    height: 270px;
+    width: 100%;
+    border: 1px solid red;
+ }
+
+ #about-profile .about-myprofile {
+    width: 250px;
+    height: 270px;
+    border: 1px solid blueviolet;
+    float: left;
+ }
+
+ #about-profile .about-introduce {
+    width: 100%;
+    height: 270px;
+    border: 1px solid springgreen;
+    text-align: center;
+}
+
+.about-myprofile > .mypicture {
+    width: 100%;
+    border: 1px solid hotpink;
+}
+
+.about-myprofile > .whoami {
+    font-family: 'Roboto', sans-serif;
+    color: #616161;
+    font-size: 25px;
+    text-align: center;
+}
+
+.mypicture img {
+    width: 100%;
+    height: 100%;
+}

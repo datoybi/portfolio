@@ -16,9 +16,9 @@ viewworksbtn.addEventListener("mouseover", function() {
 viewworksbtn.addEventListener("mouseout", function() {
     span.classList.remove("rotate");
 });
-
+// 움직이는 효과
 $(document).ready(function() {
-    $('body').scrollspy({target: ".myNavbar", offset:30});
+    $('body').scrollspy({target: ".myNavbar", offset:50});
     $("#myNavbar a, .navbar-header a, #viewworksbtn a").on('click', function(event){
         if(this.hash !== ""){
             event.preventDefault();
@@ -33,11 +33,11 @@ $(document).ready(function() {
  });
 
 window.onscroll = function() {scrollFunction()};
-
+//네비바 떨어트리는 효과
 function scrollFunction() {
-  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+  if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
     document.getElementById("navbar").style.top = "0";
   } else {
-    document.getElementById("navbar").style.top = "-50px";
+    document.getElementById("navbar").style.top = "-60px";
   }
 }
