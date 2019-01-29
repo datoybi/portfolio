@@ -180,10 +180,46 @@ body {
     position: relative;
     display: inline-block;
     border: 1px solid hotpink;
+    margin-top: 10px;
 }
 
 .skill-wrapper > .skill-box {
     border: 1px solid firebrick;
     width: 100%;
     height: 150px;
+}
+
+.skill-wrapper > .skill-box > .skill-img {
+    width: 23%;
+    margin-left: 0;
+    float: left;
+    padding-top: 10px;
+}
+
+.skill-wrapper > .skill-box > .skill-img > img {
+    margin: 0 auto;
+    max-height: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.skill-box .skill-img-mysql {
+    padding-top: 5px;
+    width: 23%;
+    margin-left: 0;
+    float: left;
+    padding-top: 10px;
+}
+
+.skill-box .skill-img-mysql > img {
+    width: 60%;
+    padding-top: 11px;
+    padding-bottom: 35px;
+    margin: 0 auto;
+    max-height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
 }
