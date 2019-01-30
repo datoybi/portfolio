@@ -243,52 +243,129 @@ body {
     width: 100%;
 }
 
-  .active {
+.active {
     border: 3px solid #009ADA;
     color: black;
-  }
+}
 
-  #portfolio .wrapper-portfolio {
+#portfolio .wrapper-portfolio {
     width: 100%;
     text-align: center;
     height: 250px;
-  }
+}
 
-  #filter-btn {
-      text-align: center;
-      padding-bottom: 20px;
-  }
+#filter-btn {
+    text-align: center;
+    padding-bottom: 20px;
+}
 
-  #filter-btn > button {
+#filter-btn > button {
     font-size: 20px;
     margin-right: 25px;
     border-radius: unset;
     margin-left: 25px;
     padding-left: 30px;
     padding-right: 30px;
-  }
+}
 
-  .filter .filter-container .filterDiv {
-    float: left;
-    border: 1px solid gray;
-    color: #000000;
-    width: 33%;
-    height: 280px;
-    line-height: 100px;
-    text-align: center;
-    display: none;
-  }
-
-  .filter .filter-container {
+.filter .filter-container {
     height: 700px;
-  }
+    width: 100%;
+    text-align: center;
+}
+
+.filter .bottom-side {
+    width: 100%;
+    height : 300px;
+    border: 1px solid blue;
+}
+
+div.filterDiv {
+    margin-right: -5px;
+    display: none;
+    color: #fff;
+    min-width: 340px;
+    max-width: 33%;
+    max-height: 270px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #07090c;
+    font-size: 16px;
+    -webkit-perspective: 50em;
+    perspective: 50em;
+}
+div.filterDiv * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+div.filterDiv img {
+    opacity: 1;
+    width: 100%;
+    -webkit-transform-origin: 50% 0%;
+    -ms-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+}
+div.filterDiv div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    -webkit-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+    -webkit-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    z-index: 1;
+    opacity: 0;
+    padding: 20px 30px;
+}
+div.filterDiv h3, div.filterDiv p {
+    line-height: 1.5em;
+}
+div.filterDiv h3 {
+    margin: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+div.filterDiv p {
+    font-size: 0.8em;
+    font-weight: 500;
+    margin: 0 0 15px;
+}
+div.filterDiv .view {
+    border: 2px solid #ffffff;
+    padding: 0.5em 1em;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 10px;
+}
+div.filterDiv .view:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+div.filterDiv:hover img, div.filterDiv.hover img {
+    -webkit-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+    opacity: 0;
+}
+div.filterDiv:hover div, div.filterDiv.hover div {
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    opacity: 1;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
   
   .show {
-    display: block !important;
+    display: inline-block !important;
   }
 
   svg {
-      margin-top: -100px;
   }
 
   #contact {
@@ -328,20 +405,22 @@ body {
   #contact .contact-form input {
     background-color: #1E242C;
     border: 1px solid #1E242C;
-    width: 450px;
+    width: 100%;
     height: 40px;
     font-size: 16px;
     color: white;
     margin-bottom: 5px;
+    padding-left: 13px;
   }
 
   #contact .contact-form textarea {
     background-color: #1E242C;
     border: 1px solid #1E242C;
-    width: 450px;
+    width: 100%;
     height: 150px;
     font-size: 16px;
     color: white;
+    padding-left: 13px;
   }
 
   #contact .contact-form .button {
@@ -351,6 +430,8 @@ body {
     margin-top: 5px;
     transition-duration: 0.5s;
     cursor: pointer;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   #contact .contact-form .button:hover {
@@ -363,4 +444,43 @@ body {
     width: 100%;
     height: 250px;
     background: #1B242F;
+    text-align: center;
   }
+  
+  footer .fa-angle-double-up {
+    font-size: 35px;
+    background-color: #22a6b3;
+    padding: 8px 10px;
+    color: #fff;
+    margin-top: -25px;
+    margin-bottom: 45px;
+  }
+
+  footer .icon-wrapper {
+    width: 323px;
+    height: 55px;
+    margin: 0 auto;
+  }
+
+  footer .icon-wrapper .icon-box i {
+    float: left;
+    font-size: 23px;
+    padding: 15px 18px;
+    background-color: #262F38;
+    margin-right: 13px;
+    margin-left: 13px;
+    
+}
+
+footer .copyright {
+    font-size: 10pt;
+    color: #8F9AA7;
+    margin-top: 35px;
+    opacity: 0.6;
+}
+
+footer .copyright .highlight_copyright {
+    color: #E31B6D;
+}
+
+

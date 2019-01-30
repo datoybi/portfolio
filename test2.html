@@ -2,16 +2,128 @@
 <html>
     <head>
         <link rel="stylesheet" href="text.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+            div.filterDiv {
+                font-family: 'Raleway', Arial, sans-serif;
+                color: #fff;
+                position: relative;
+                overflow: hidden;
+                margin: 10px;
+                min-width: 230px;
+                max-width: 315px;
+                max-height: 220px;
+                width: 100%;
+                color: #ffffff;
+                text-align: left;
+                background-color: #07090c;
+                font-size: 16px;
+                -webkit-perspective: 50em;
+                perspective: 50em;
+            }
+            div.filterDiv * {
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                -webkit-transition: all 0.6s ease;
+                transition: all 0.6s ease;
+            }
+            div.filterDiv img {
+                opacity: 1;
+                width: 100%;
+                -webkit-transform-origin: 50% 0%;
+                -ms-transform-origin: 50% 0%;
+                transform-origin: 50% 0%;
+            }
+            div.filterDiv div {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                -webkit-transform: rotateX(90deg);
+                transform: rotateX(90deg);
+                -webkit-transform-origin: 50% 100%;
+                -ms-transform-origin: 50% 100%;
+                transform-origin: 50% 100%;
+                z-index: 1;
+                opacity: 0;
+                padding: 20px 30px;
+            }
+            div.filterDiv h3, div.filterDiv p {
+                line-height: 1.5em;
+            }
+            div.filterDiv h3 {
+                margin: 0;
+                font-weight: 800;
+                text-transform: uppercase;
+            }
+            div.filterDiv p {
+                font-size: 0.8em;
+                font-weight: 500;
+                margin: 0 0 15px;
+            }
+            div.filterDiv .view {
+                border: 2px solid #ffffff;
+                padding: 0.5em 1em;
+                font-size: 0.8em;
+                text-decoration: none;
+                color: #ffffff;
+                display: inline-block;
+                margin-right: 10px;
+            }
+            div.filterDiv .view:hover {
+                background-color: #ffffff;
+                color: #000000;
+            }
+            div.filterDiv:hover img, div.filterDiv.hover img {
+                -webkit-transform: rotateX(-90deg);
+                transform: rotateX(-90deg);
+                opacity: 0;
+            }
+            div.filterDiv:hover div, div.filterDiv.hover div {
+                -webkit-transform: rotateX(0deg);
+                transform: rotateX(0deg);
+                opacity: 1;
+                -webkit-transition-delay: 0.2s;
+                transition-delay: 0.2s;
+            }
+        </style>
     </head>
     <body>
-        <span> →</span>
-
-        <script>
-            const span = document.querySelector("span");
-
-            span.addEventListener("onmouseover", function(){
-                span.innerText = "↓";
-            })
-        </script>
+        <div class="filterDiv javascript">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample70.jpg"/>
+            <div>
+                <h3>First project</h3>
+                <p>The strength to change what I can, the inability to accept what I can't and the incapacity to tell the difference.</p>
+                <a href="#" class="view">View Online</a>
+                <a href="#" class="view">View Github</a>
+            </div>
+        </div>
+        <div class = "wrapper">
+                <div class = "main">
+                    <!-- 가변 영역 -->sssssssssssssssssssssssddddddddd
+                </div>
+                <div class = "side">
+                    <!-- 고정 영역 -->
+                </div>
+            </div>
+            <style>
+               .wrapper {
+                    overflow : hidden;
+                    border: 1px solid black;
+                }
+                .main {
+                    width: 100%;
+                    height : -webkit-calc(100% - 300px);
+                    height : calc(100% - 300px);
+                    border: 1px solid red;
+                }
+                .side {
+                    width: 100%;
+                    height : 300px;
+                    border: 1px solid blue;
+                }
+            </style>
     </body>
 </html>

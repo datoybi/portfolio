@@ -19,7 +19,7 @@ viewworksbtn.addEventListener("mouseout", function() {
 // 움직이는 효과
 $(document).ready(function() {
     $('body').scrollspy({target: ".myNavbar", offset:50});
-    $("#myNavbar a, .navbar-header a, #viewworksbtn a").on('click', function(event){
+    $("#myNavbar a, .navbar-header a, #viewworksbtn a, footer > a").on('click', function(event){
         if(this.hash !== ""){
             event.preventDefault();
             var hash = this.hash;
