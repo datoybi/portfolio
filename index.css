@@ -228,3 +228,60 @@ body {
     vertical-align: middle;
     display: table-cell;
 }
+
+/* portfolio */
+#portfolio {
+    background-color:#f5f5f5;
+}
+
+#portfolio > .wrapper-portfolio {
+    width: 100%;
+    text-align: center;
+}
+
+#portfolio .filter {
+    width: 100%;
+}
+
+  .active {
+    border: 3px solid #009ADA;
+    color: black;
+  }
+
+  #portfolio .wrapper-portfolio {
+    width: 100%;
+    text-align: center;
+    height: 250px;
+  }
+
+  #filter-btn {
+      text-align: center;
+      padding-bottom: 20px;
+  }
+
+  #filter-btn > button {
+    font-size: 20px;
+    margin-right: 25px;
+    border-radius: unset;
+    margin-left: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .filter .filter-container .filterDiv {
+    float: left;
+    border: 1px solid gray;
+    color: #000000;
+    width: 33%;
+    height: 280px;
+    line-height: 100px;
+    text-align: center;
+    display: none;
+  }
+  .filter .filter-container {
+    height: 600px;
+  }
+  
+  .show {
+    display: block !important;
+  }
