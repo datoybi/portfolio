@@ -5,4 +5,7 @@
   section {
     @apply border border-neutral-200 py-9;
   }
+  span {
+    @apply block;
+  }
 }
