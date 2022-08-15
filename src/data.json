@@ -1,0 +1,59 @@
+{
+  "name": "윤다솜",
+  "contacts": [
+    { "Github": "https://github.com/datoybi" },
+    { "Blog": "https://datobi.tistory.com" },
+    { "Email": "dsy0302@gmail.com" }
+  ],
+  "aboutMe": [
+    "삶을 대하는 올바른 태도를 중요시합니다.",
+    "꾸준히 성장하는 것을 삶의 목표로 삼고, 1일 1커밋을 하고있습니다.",
+    "Clean Code와 Clean Architecture에 대한 고민을 생활화합니다."
+  ],
+  "projects": [
+    {
+      "company": "고려 소프트웨어",
+      "position": "Fullstack Developer",
+      "date": "2021.05.10 ~ 2022.08.24 (1.3)",
+      "projects": [
+        {
+          "title": "BIM의 PMIS(Project Management Information System) 파트 개발",
+          "date": "2022.01 ~ 2022.08",
+          "description": "도로교통공사에서 맡은 BIM 개발 프로젝트의 PMIS 개발 참여",
+          "todo": [
+            "devExtreme의 gantt chart 라이브러리를 사용하여 데이터 표출",
+            "range slider와 gantt chart와 Unity 컨테이너를 바인딩하여 흘러가는 과정을 표출하는 player 구현",
+            "RESTFul API, 반응형 UI 적용"
+          ],
+          "stack": "Vanila Javascript, css, Express, PostgreDB, nodeJS"
+        },
+        {
+          "title": "홈페이지 리뉴얼",
+          "date": "2022.01 ~ 2022.08",
+          "description": "홈페이지 새롭게 리뉴얼함",
+          "todo": [
+            "프론트엔드 / 백엔드 기술환경 세팅 및 전체 기능 구현",
+            "SEO 최적화 (RSS, Sitemap, robots.txt 생성, 시멘틱 태그 배치)",
+            "RESTFul API, 반응형 UI 적용",
+            "Admin Page 구현"
+          ],
+          "stack": "Vanila Javascript, css, Express, mariaDB, nodeJS"
+        }
+      ]
+    }
+  ],
+  "others": [
+    {
+      "title": "Blog",
+      "subTitle": "Author, Maintainer",
+      "date": "2022.08. ~ 현재",
+      "description": "<a href='https://datobi.tistory.com' target='_black'>개발 꿈나무</a>라는 개인 블로그를 운영하고 있습니다. 개인 블로그를 운영하고 있습니다.개인 블로그를 운영하고 있습니다. 개인 블로그를 운영하고 있습니다."
+    },
+    {
+      "title": "서일대학교",
+      "subTitle": "인터넷정보과",
+      "date": "2013.02. ~ 2017.03",
+      "description": "개인 블로그를 운영하고 있습니다. 개인 블로그를 운영하고 있습니다.개인 블로그를 운영하고 있습니다. 개인 블로그를 운영하고 있습니다."
+    }
+  ]
+}

@@ -1,11 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard.css");
+
 @layer components {
-  section {
-    @apply border border-neutral-200 py-9;
+  body {
+    @apply tracking-body;
   }
   span {
     @apply block;
+  }
+  a {
+    @apply underline underline-offset-2 hover:text-yellow-500 duration-300;
+  }
+  .highlight {
+    /* line-height: 1.2 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+      "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji",
+      "Segoe UI Symbol";
+    font-size: 3em !important;
+    font-weight: 700 !important; */
+    background-image: linear-gradient(transparent 60%, #f8cd07 40%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size 0.8s;
+    color: #000;
+    /* background-size: 100% 100%; */
+  }
+  .highlight:hover {
+    background-size: 100% 100%;
   }
 }

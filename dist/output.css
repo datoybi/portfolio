@@ -585,16 +585,43 @@ video {
   }
 }
 
-section {
-  border-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgb(229 229 229 / var(--tw-border-opacity));
-  padding-top: 2.25rem;
-  padding-bottom: 2.25rem;
+body {
+  letter-spacing: -.3px;
 }
 
 span {
   display: block;
+}
+
+a {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-underline-offset: 2px;
+  transition-duration: 300ms;
+}
+
+a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(234 179 8 / var(--tw-text-opacity));
+}
+
+.highlight {
+  /* line-height: 1.2 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+      "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji",
+      "Segoe UI Symbol";
+    font-size: 3em !important;
+    font-weight: 700 !important; */
+  background-image: linear-gradient(transparent 60%, #f8cd07 40%);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.8s;
+  color: #000;
+  /* background-size: 100% 100%; */
+}
+
+.highlight:hover {
+  background-size: 100% 100%;
 }
 
 .mx-auto {
@@ -602,20 +629,16 @@ span {
   margin-right: auto;
 }
 
-.mt-11 {
-  margin-top: 2.75rem;
-}
-
 .ml-7 {
   margin-left: 1.75rem;
 }
 
-.mb-7 {
-  margin-bottom: 1.75rem;
-}
-
 .mb-11 {
   margin-bottom: 2.75rem;
+}
+
+.mt-11 {
+  margin-top: 2.75rem;
 }
 
 .mb-4 {
@@ -626,12 +649,16 @@ span {
   margin-bottom: 1.5rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
+.-mt-1\.5 {
+  margin-top: -0.375rem;
 }
 
-.block {
-  display: block;
+.-mt-1 {
+  margin-top: -0.25rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .inline {
@@ -670,22 +697,16 @@ span {
   max-width: 45.5rem;
 }
 
+.table-auto {
+  table-layout: auto;
+}
+
 .list-disc {
   list-style-type: disc;
 }
 
-.space-y-3 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
-}
-
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
-.border {
-  border-width: 1px;
+.break-words {
+  overflow-wrap: break-word;
 }
 
 .border-y {
@@ -693,14 +714,8 @@ span {
   border-bottom-width: 1px;
 }
 
-.bg-yellow-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 240 138 / var(--tw-bg-opacity));
-}
-
-.bg-green-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(187 247 208 / var(--tw-bg-opacity));
+.border-b {
+  border-bottom-width: 1px;
 }
 
 .p-2 {
@@ -717,12 +732,20 @@ span {
   padding-bottom: 1rem;
 }
 
+.pt-11 {
+  padding-top: 2.75rem;
+}
+
 .pb-7 {
   padding-bottom: 1.75rem;
 }
 
-.pl-5 {
-  padding-left: 1.25rem;
+.pt-7 {
+  padding-top: 1.75rem;
+}
+
+.pb-32 {
+  padding-bottom: 8rem;
 }
 
 .text-right {
@@ -733,14 +756,23 @@ span {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.font-body {
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, Bazier Square, Noto Sans KR, Segoe UI, Apple SD Gothic Neo, Roboto,Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-2xl {
@@ -757,56 +789,12 @@ span {
   font-weight: 700;
 }
 
-.tracking-tight {
-  letter-spacing: -0.025em;
-}
-
-.text-slate-500 {
-  --tw-text-opacity: 1;
-  color: rgb(100 116 139 / var(--tw-text-opacity));
-}
-
-.underline {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-}
-
-.duration-300 {
-  transition-duration: 300ms;
-}
-
-.marker\:text-sky-400 *::marker {
-  color: rgb(56 189 248 );
-}
-
-.marker\:text-yellow-400 *::marker {
-  color: rgb(250 204 21 );
-}
-
 .marker\:text-yellow-500 *::marker {
   color: rgb(234 179 8 );
 }
 
-.marker\:text-sky-400::marker {
-  color: rgb(56 189 248 );
-}
-
-.marker\:text-yellow-400::marker {
-  color: rgb(250 204 21 );
-}
-
 .marker\:text-yellow-500::marker {
   color: rgb(234 179 8 );
-}
-
-.selection\:bg-fuchsia-300 *::-moz-selection {
-  --tw-bg-opacity: 1;
-  background-color: rgb(240 171 252 / var(--tw-bg-opacity));
-}
-
-.selection\:bg-fuchsia-300 *::selection {
-  --tw-bg-opacity: 1;
-  background-color: rgb(240 171 252 / var(--tw-bg-opacity));
 }
 
 .selection\:bg-yellow-300 *::-moz-selection {
@@ -819,16 +807,6 @@ span {
   background-color: rgb(253 224 71 / var(--tw-bg-opacity));
 }
 
-.selection\:bg-fuchsia-300::-moz-selection {
-  --tw-bg-opacity: 1;
-  background-color: rgb(240 171 252 / var(--tw-bg-opacity));
-}
-
-.selection\:bg-fuchsia-300::selection {
-  --tw-bg-opacity: 1;
-  background-color: rgb(240 171 252 / var(--tw-bg-opacity));
-}
-
 .selection\:bg-yellow-300::-moz-selection {
   --tw-bg-opacity: 1;
   background-color: rgb(253 224 71 / var(--tw-bg-opacity));
@@ -837,9 +815,4 @@ span {
 .selection\:bg-yellow-300::selection {
   --tw-bg-opacity: 1;
   background-color: rgb(253 224 71 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-yellow-200:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 240 138 / var(--tw-bg-opacity));
 }
