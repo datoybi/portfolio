@@ -4,16 +4,12 @@ export function AboutMe({ $app, initialState }) {
 
   this.render = () => {
     let htmlString = this.$target.innerHTML;
-    htmlString += `<section class=" border-b">
-    	<ul class="ml-7 mb-11 tracking-tight marker:text-yellow-500 list-disc text-base">
-    		${this.state.reduce((acc, element) => acc + `<li>${element}</li>`, "")}
-    	</ul>
-    </section>`;
+    htmlString += `<section class="pt-16">
+			<p class="mb-11 big-paragraph">
+				${this.state}
+			</p>
+		</section>`;
     this.$target.innerHTML = htmlString;
-  };
-
-  this.setState = (newState) => {
-    this.state = newState;
   };
 
   this.render();

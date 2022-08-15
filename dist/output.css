@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -586,42 +586,67 @@ video {
 }
 
 body {
-  letter-spacing: -.3px;
-}
-
-span {
-  display: block;
+  word-break: keep-all;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, Bazier Square,
+      Noto Sans KR, Segoe UI, Apple SD Gothic Neo, Roboto, Helvetica Neue, Arial,
+      sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+      Noto Color Emoji;
+  letter-spacing: -0.3px;
+  color: #222;
 }
 
 a {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  border-radius: 0.25rem;
+  background-color: rgba(0,0,0,0.07);;
+  padding: 0.25rem;
   text-underline-offset: 2px;
-  transition-duration: 300ms;
 }
 
 a:hover {
-  --tw-text-opacity: 1;
-  color: rgb(234 179 8 / var(--tw-text-opacity));
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+@-webkit-keyframes highlight-animation {
+  0% {
+    background-size: 0% 100%;
+  }
+
+  100% {
+    background-size: 100% 100%;
+  }
+}
+
+@keyframes highlight-animation {
+  0% {
+    background-size: 0% 100%;
+  }
+
+  100% {
+    background-size: 100% 100%;
+  }
 }
 
 .highlight {
-  /* line-height: 1.2 !important;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
-      "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji",
-      "Segoe UI Symbol";
-    font-size: 3em !important;
-    font-weight: 700 !important; */
   background-image: linear-gradient(transparent 60%, #f8cd07 40%);
   background-repeat: no-repeat;
   background-size: 0% 100%;
+  -webkit-animation: 0.5s linear highlight-animation;
+          animation: 0.5s linear highlight-animation;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
   transition: background-size 0.8s;
-  color: #000;
-  /* background-size: 100% 100%; */
 }
 
-.highlight:hover {
-  background-size: 100% 100%;
+.big-paragraph {
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 500;
+  margin: 0 0 1rem;
+  letter-spacing: -3px;
+  color: #222;
 }
 
 .mx-auto {
@@ -629,16 +654,8 @@ a:hover {
   margin-right: auto;
 }
 
-.ml-7 {
-  margin-left: 1.75rem;
-}
-
 .mb-11 {
   margin-bottom: 2.75rem;
-}
-
-.mt-11 {
-  margin-top: 2.75rem;
 }
 
 .mb-4 {
@@ -659,6 +676,10 @@ a:hover {
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.ml-7 {
+  margin-left: 1.75rem;
 }
 
 .inline {
@@ -732,8 +753,16 @@ a:hover {
   padding-bottom: 1rem;
 }
 
+.pt-16 {
+  padding-top: 4rem;
+}
+
 .pt-11 {
   padding-top: 2.75rem;
+}
+
+.pb-11 {
+  padding-bottom: 2.75rem;
 }
 
 .pb-7 {
@@ -748,31 +777,26 @@ a:hover {
   padding-bottom: 8rem;
 }
 
-.text-right {
-  text-align: right;
+.pb-16 {
+  padding-bottom: 4rem;
 }
 
-.font-sans {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.text-right {
+  text-align: right;
 }
 
 .font-body {
   font-family: Pretendard, -apple-system, BlinkMacSystemFont, Bazier Square, Noto Sans KR, Segoe UI, Apple SD Gothic Neo, Roboto,Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-2xl {
@@ -785,34 +809,39 @@ a:hover {
   line-height: 1.75rem;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
-.marker\:text-yellow-500 *::marker {
-  color: rgb(234 179 8 );
+.leading-normal {
+  line-height: 1.5;
 }
 
-.marker\:text-yellow-500::marker {
-  color: rgb(234 179 8 );
+.tracking-tight {
+  letter-spacing: -0.025em;
 }
 
-.selection\:bg-yellow-300 *::-moz-selection {
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 224 71 / var(--tw-bg-opacity));
+.tracking-\[-3px\] {
+  letter-spacing: -3px;
 }
 
-.selection\:bg-yellow-300 *::selection {
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 224 71 / var(--tw-bg-opacity));
+.selection\:bg-selection *::-moz-selection {
+  background-color: rgba(255, 235, 60, 0.3);;
 }
 
-.selection\:bg-yellow-300::-moz-selection {
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 224 71 / var(--tw-bg-opacity));
+.selection\:bg-selection *::selection {
+  background-color: rgba(255, 235, 60, 0.3);;
 }
 
-.selection\:bg-yellow-300::selection {
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 224 71 / var(--tw-bg-opacity));
+.selection\:bg-selection::-moz-selection {
+  background-color: rgba(255, 235, 60, 0.3);;
+}
+
+.selection\:bg-selection::selection {
+  background-color: rgba(255, 235, 60, 0.3);;
 }

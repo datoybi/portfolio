@@ -9,7 +9,3 @@ const initialState = await fetch("./data.json")
   });
 
 new App({ $app, initialState });
-
-window.onload = () => {
-  console.log("열리 ");
-};

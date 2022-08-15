@@ -5,16 +5,12 @@
     { "Blog": "https://datobi.tistory.com" },
     { "Email": "dsy0302@gmail.com" }
   ],
-  "aboutMe": [
-    "삶을 대하는 올바른 태도를 중요시합니다.",
-    "꾸준히 성장하는 것을 삶의 목표로 삼고, 1일 1커밋을 하고있습니다.",
-    "Clean Code와 Clean Architecture에 대한 고민을 생활화합니다."
-  ],
+  "aboutMe": "<span class='highlight'>꾸준히 성장</span>하는 것을 삶의 목표로 삼고, 1일 1커밋을 하고있습니다. 건설적인 피드백을 좋아합니다.<span class='inline-block highlight'>Clean</span> Code와 <span class='highlight'>Clean</span> Architecture에 대한 고민을 생활화합니다.",
   "projects": [
     {
       "company": "고려 소프트웨어",
       "position": "Fullstack Developer",
-      "date": "2021.05.10 ~ 2022.08.24 (1.3)",
+      "date": "2021.05 - 2022.08 <span class='badge'>(1.3 year)</span>",
       "projects": [
         {
           "title": "BIM의 PMIS(Project Management Information System) 파트 개발",

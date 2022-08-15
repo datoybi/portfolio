@@ -5,29 +5,58 @@
 
 @layer components {
   body {
-    @apply tracking-body;
-  }
-  span {
-    @apply block;
+    word-break: keep-all;
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, Bazier Square,
+      Noto Sans KR, Segoe UI, Apple SD Gothic Neo, Roboto, Helvetica Neue, Arial,
+      sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+      Noto Color Emoji;
+    letter-spacing: -0.3px;
+    color: #222;
   }
   a {
-    @apply underline underline-offset-2 hover:text-yellow-500 duration-300;
+    @apply bg-link rounded p-1 hover:underline underline-offset-2;
   }
+
+  @keyframes highlight-animation {
+    0% {
+      background-size: 0% 100%;
+    }
+    100% {
+      background-size: 100% 100%;
+    }
+  }
+
+  .badge {
+    @apply bg-link rounded p-1;
+  }
+
   .highlight {
-    /* line-height: 1.2 !important;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
-      "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji",
-      "Segoe UI Symbol";
-    font-size: 3em !important;
-    font-weight: 700 !important; */
+    background-image: linear-gradient(transparent 60%, #f8cd07 40%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    animation: 0.5s linear highlight-animation;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    transition: background-size 0.8s;
+  }
+
+  .highlight-hover {
     background-image: linear-gradient(transparent 60%, #f8cd07 40%);
     background-repeat: no-repeat;
     background-size: 0% 100%;
     transition: background-size 0.8s;
-    color: #000;
-    /* background-size: 100% 100%; */
   }
-  .highlight:hover {
+
+  .highlight-hover:hover {
     background-size: 100% 100%;
+  }
+
+  .big-paragraph {
+    font-size: 2rem;
+    line-height: 1.4;
+    font-weight: 500;
+    margin: 0 0 1rem;
+    letter-spacing: -3px;
+    color: #222;
   }
 }

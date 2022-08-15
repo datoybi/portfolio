@@ -2,17 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    colors: {
+      selection: "rgba(255, 235, 60, 0.3);",
+      link: "rgba(0,0,0,0.07);",
+    },
     maxWidth: {
       45.5: "45.5rem",
-    },
-    wordBreak: {
-      body: "keep-all",
-    },
-    letterSpacing: {
-      body: "-.3px",
-    },
-    color: {
-      body: "#222",
     },
     extend: {
       fontFamily: {
