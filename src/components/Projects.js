@@ -2,7 +2,6 @@ export function Projects({ $app, initialState, title }) {
   this.state = initialState;
   this.$target = $app.querySelector("article");
 
-  console.log(initialState);
   this.render = () => {
     let htmlString = this.$target.innerHTML;
 
