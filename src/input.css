@@ -13,8 +13,18 @@
     letter-spacing: -0.3px;
     color: #222;
   }
+
+  ul {
+    /* list-style-position: inside; */
+    list-style-type: disc;
+    margin-left: 1.2rem;
+  }
+  li::marker {
+    color: #f8cd07;
+  }
+
   a {
-    @apply bg-link rounded p-1 hover:underline underline-offset-2;
+    @apply bg-link rounded hover:underline underline-offset-2;
   }
 
   @keyframes highlight-animation {
@@ -24,10 +34,6 @@
     100% {
       background-size: 100% 100%;
     }
-  }
-
-  .badge {
-    @apply bg-link rounded p-1;
   }
 
   .highlight {
@@ -59,4 +65,15 @@
     letter-spacing: -3px;
     color: #222;
   }
+}
+
+.gray-badge {
+  border-radius: 0.25rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-left: 5px;
+  font-weight: 400;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  font-size: 0.7rem;
 }

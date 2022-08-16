@@ -595,10 +595,19 @@ body {
   color: #222;
 }
 
+ul {
+  /* list-style-position: inside; */
+  list-style-type: disc;
+  margin-left: 1.2rem;
+}
+
+li::marker {
+  color: #f8cd07;
+}
+
 a {
   border-radius: 0.25rem;
   background-color: rgba(0,0,0,0.07);;
-  padding: 0.25rem;
   text-underline-offset: 2px;
 }
 
@@ -662,12 +671,12 @@ a:hover {
   margin-bottom: 1rem;
 }
 
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
 .-mt-1\.5 {
   margin-top: -0.375rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
 .-mt-1 {
@@ -676,10 +685,6 @@ a:hover {
 
 .mb-2 {
   margin-bottom: 0.5rem;
-}
-
-.ml-7 {
-  margin-left: 1.75rem;
 }
 
 .inline {
@@ -722,10 +727,6 @@ a:hover {
   table-layout: auto;
 }
 
-.list-disc {
-  list-style-type: disc;
-}
-
 .break-words {
   overflow-wrap: break-word;
 }
@@ -737,6 +738,10 @@ a:hover {
 
 .border-b {
   border-bottom-width: 1px;
+}
+
+.p-1 {
+  padding: 0.25rem;
 }
 
 .p-2 {
@@ -765,20 +770,16 @@ a:hover {
   padding-bottom: 2.75rem;
 }
 
-.pb-7 {
-  padding-bottom: 1.75rem;
-}
-
-.pt-7 {
-  padding-top: 1.75rem;
+.pb-16 {
+  padding-bottom: 4rem;
 }
 
 .pb-32 {
   padding-bottom: 8rem;
 }
 
-.pb-16 {
-  padding-bottom: 4rem;
+.pb-7 {
+  padding-bottom: 1.75rem;
 }
 
 .text-right {
@@ -822,12 +823,19 @@ a:hover {
   line-height: 1.5;
 }
 
-.tracking-tight {
-  letter-spacing: -0.025em;
-}
-
 .tracking-\[-3px\] {
   letter-spacing: -3px;
+}
+
+.gray-badge {
+  border-radius: 0.25rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-left: 5px;
+  font-weight: 400;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  font-size: 0.7rem;
 }
 
 .selection\:bg-selection *::-moz-selection {

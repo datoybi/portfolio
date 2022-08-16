@@ -12,10 +12,10 @@ export function Contacts({ $app, initialState }) {
             const key = Object.getOwnPropertyNames(contact);
             return (
               acc +
-              `<tr class="border-y border-gray-400	">
+              `<tr class="border-y">
 								<td class="px-8 w-1/3 py-4 text-right text-lg">${key}</td>
 								<td class="px-8 w-2/3 text-lg">
-								<a href="${contact[key]}">${contact[key]}</a>
+								<a href="${contact[key]}" class="p-1">${contact[key]}</a>
 								</td>  			
 							</tr>
 						`
