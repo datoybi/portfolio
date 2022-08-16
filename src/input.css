@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard.css");
+
+@layer components {
+  body {
+    word-break: keep-all;
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, Bazier Square,
+      Noto Sans KR, Segoe UI, Apple SD Gothic Neo, Roboto, Helvetica Neue, Arial,
+      sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+      Noto Color Emoji;
+    letter-spacing: -0.3px;
+    color: #222;
+  }
+
+  ul {
+    /* list-style-position: inside; */
+    list-style-type: disc;
+    margin-left: 1.2rem;
+  }
+  li::marker {
+    color: #f8cd07;
+  }
+
+  a {
+    @apply bg-link rounded hover:underline underline-offset-2;
+  }
+
+  @keyframes highlight-animation {
+    0% {
+      background-size: 0% 100%;
+    }
+    100% {
+      background-size: 100% 100%;
+    }
+  }
+
+  .highlight {
+    background-image: linear-gradient(transparent 60%, #f8cd07 40%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    animation: 0.5s linear highlight-animation;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    transition: background-size 0.8s;
+  }
+
+  .highlight-hover {
+    background-image: linear-gradient(transparent 60%, #f8cd07 40%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size 0.8s;
+  }
+
+  .highlight-hover:hover {
+    background-size: 100% 100%;
+  }
+
+  .big-paragraph {
+    font-size: 2rem;
+    line-height: 1.4;
+    font-weight: 500;
+    margin: 0 0 1rem;
+    letter-spacing: -3px;
+    color: #222;
+  }
+}
+
+.gray-badge {
+  border-radius: 0.25rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-left: 5px;
+  font-weight: 400;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  font-size: 0.7rem;
+}
