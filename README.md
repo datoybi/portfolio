@@ -1,4 +1,3 @@
-# portfolio
-portfolio
+# 포트폴리오 구현
 
-https://datoybi.github.io/portfolio/#home
+https://datoybi.github.io/portfolio/
