@@ -55,11 +55,7 @@
           "title": "",
           "date": "",
           "description": "현재 보고있는 포트폴리오 페이지 구현",
-          "todo": [
-            "상태관리를 이용하여 재사용성을 높임",
-            "Responsive UI 적용",
-            "다크모드 구현"
-          ],
+          "todo": ["상태관리를 이용하여 재사용성을 높임", "Responsive UI 적용"],
           "stack": "Vanilla Javascript, HTML5, TailwindCSS, ESLint",
           "gif": ""
         }

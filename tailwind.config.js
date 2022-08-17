@@ -1,6 +1,7 @@
 /* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   content: ["./*.{html,js}", "./src/**/*.{html,js}"],
   theme: {
     colors: {

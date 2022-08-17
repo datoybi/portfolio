@@ -660,6 +660,10 @@ a:hover {
   color: #222;
 }
 
+.float-right {
+  float: right;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -733,6 +737,10 @@ a:hover {
   overflow-wrap: break-word;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .border-y {
   border-top-width: 1px;
   border-bottom-width: 1px;
@@ -750,19 +758,14 @@ a:hover {
   padding: 0.5rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .pt-16 {
@@ -779,10 +782,6 @@ a:hover {
 
 .pb-16 {
   padding-bottom: 4rem;
-}
-
-.pb-32 {
-  padding-bottom: 8rem;
 }
 
 .pb-7 {
@@ -816,6 +815,11 @@ a:hover {
   line-height: 2rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -828,6 +832,10 @@ a:hover {
 
 .font-bold {
   font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .leading-normal {
@@ -885,9 +893,5 @@ a:hover {
 
   .md\:text-left {
     text-align: left;
-  }
-
-  .md\:text-center {
-    text-align: center;
   }
 }

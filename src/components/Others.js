@@ -19,7 +19,9 @@ export function Others({ $app, initialState }) {
 					</div>`,
         ""
       )}
-			<footer class="pb-32"></footer>
+			<footer class="pt-16 pb-16">
+				<p class="text-sm	text-center	italic">last updated: 2022.08.17</p>
+			</footer>
 		</section>`;
     this.$target.innerHTML = htmlString;
   };
