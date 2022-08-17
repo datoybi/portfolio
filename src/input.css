@@ -12,6 +12,8 @@
       Noto Color Emoji;
     letter-spacing: -0.3px;
     color: #222;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   ul {
@@ -19,6 +21,7 @@
     list-style-type: disc;
     margin-left: 1.2rem;
   }
+
   li::marker {
     color: #f8cd07;
   }

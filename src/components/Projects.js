@@ -10,13 +10,13 @@ export function Projects({ $app, initialState, title }) {
 		${this.state.reduce(
       (outerAcc, outerEl) =>
         outerAcc +
-        `<div class="flex border-b">
-						<div class="w-2/5">
+        `<div class="flex md:flex-row flex-col border-b">
+						<div class="md:w-2/5 pb-7 md:text-left text-center">
 							<h2 class="text-2xl font-bold mb-4">${outerEl.company}</h2>
 							<p>${outerEl.position}</p>
 							<p class="-mt-1.5">${outerEl.date}</p>
 						</div>
-						<div class="w-3/5 pb-7">
+						<div class="md:w-3/5 pb-7 md:text-left text-center">
 						${outerEl.projects.reduce(
               (innerAcc, innerEl, i) =>
                 innerAcc +
@@ -37,7 +37,7 @@ export function Projects({ $app, initialState, title }) {
 											</ul>
 											<h3 class="text-xl font-bold mb-2">Tech Stack</h3>
 											<p class="mb-4">${innerEl.stack}</p>
-											${innerEl.gif ? `<img src="${innerEl.gif}" />` : ""} 
+											${innerEl.gif ? `<img class="inline-block" src="${innerEl.gif}" />` : ""} 
 										</div>
 								`,
               ""

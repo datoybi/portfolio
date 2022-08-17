@@ -4,7 +4,7 @@ export function About({ $app, initialState }) {
 
   this.render = () => {
     let htmlString = this.$target.innerHTML;
-    htmlString += `<section class="pt-16">
+    htmlString += `<section class="pt-16 md:text-left text-center">
 			<p class="mb-11 big-paragraph">
 				${this.state}
 			</p>

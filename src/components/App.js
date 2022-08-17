@@ -9,13 +9,13 @@ export function App({ $app, initialState }) {
 
   new Title({ $app, initialState: this.state.name });
   new About({ $app, initialState: this.state.aboutMe });
-  new Contacts({
-    $app,
-    initialState: {
-      name: this.state.name,
-      contacts: this.state.contacts,
-    },
-  });
+  // new Contacts({
+  //   $app,
+  //   initialState: {
+  //     name: this.state.name,
+  //     contacts: this.state.contacts,
+  //   },
+  // });
   new Projects({
     $app,
     initialState: this.state.workProject,

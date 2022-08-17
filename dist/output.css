@@ -593,6 +593,8 @@ body {
       Noto Color Emoji;
   letter-spacing: -0.3px;
   color: #222;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 ul {
@@ -687,6 +689,10 @@ a:hover {
   margin-bottom: 0.5rem;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .inline {
   display: inline;
 }
@@ -707,14 +713,6 @@ a:hover {
   width: 66.666667%;
 }
 
-.w-2\/5 {
-  width: 40%;
-}
-
-.w-3\/5 {
-  width: 60%;
-}
-
 .min-w-full {
   min-width: 100%;
 }
@@ -725,6 +723,10 @@ a:hover {
 
 .table-auto {
   table-layout: auto;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .break-words {
@@ -780,6 +782,10 @@ a:hover {
 
 .pb-7 {
   padding-bottom: 1.75rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-right {
@@ -852,4 +858,26 @@ a:hover {
 
 .selection\:bg-selection::selection {
   background-color: rgba(255, 235, 60, 0.3);;
+}
+
+@media (min-width: 768px) {
+  .md\:w-2\/5 {
+    width: 40%;
+  }
+
+  .md\:w-3\/5 {
+    width: 60%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:text-left {
+    text-align: left;
+  }
+
+  .md\:text-center {
+    text-align: center;
+  }
 }
