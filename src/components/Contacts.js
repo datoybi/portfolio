@@ -13,8 +13,8 @@ export function Contacts({ $app, initialState }) {
             return (
               acc +
               `<tr class="border-y">
-								<td class="px-8 w-1/3 py-4 text-right text-lg">${key}</td>
-								<td class="px-8 w-2/3 text-lg">
+								<td class="md:px-8 px-4 w-1/3 py-4 text-right text-lg">${key}</td>
+								<td class="md:px-8 px-4 w-2/3 text-lg">
 								<a href="${contact[key]}" class="p-1">${contact[key]}</a>
 								</td>  			
 							</tr>
