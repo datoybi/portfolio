@@ -21,7 +21,7 @@
             "레거시 청산 및 기존 비즈니스 유지보수",
             "<a href='https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gantt/Overview/jQuery/Light/'>DevExtreme</a>의 Gantt Chart 라이브러리를 사용하여 구현",
             "인터페이스를 컴포넌트화 및 모듈화하여 유지보수가 용이하게 구현",
-            "Responsible UI 적용",
+            "Responsive UI 적용",
             "WebGL을 사용하여 Unity 컨테이너를 웹에 빌드",
             "간트 차트와 Unity 모델을 위한 데이터 모델링 및 API 개발",
             "개발 환경, 프로젝트의 구조, 코드 컨벤션, Policy 등에 대한 부분을 문서화"
@@ -36,7 +36,7 @@
           "todo": [
             "프로젝트 생성부터 배포까지 경험",
             "SEO 최적화 (RSS, Sitemap, robots.txt, 시멘틱 태그 배치)",
-            "Responsible UI 적용",
+            "Responsive UI 적용",
             "Summernote editor를 이용하여 게시판 CRUD 구현 및 Admin Page 구현",
             "게시판, 문의사항을 위한 데이터 모델링 및 API 개발"
           ],
@@ -57,7 +57,8 @@
           "description": "현재 보고있는 포트폴리오 페이지 구현",
           "todo": [
             "상태관리를 이용하여 재사용성을 높임",
-            "Responsible UI 적용"
+            "Responsive UI 적용",
+            "다크모드 구현"
           ],
           "stack": "Vanilla Javascript, HTML5, TailwindCSS, ESLint",
           "gif": ""

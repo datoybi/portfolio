@@ -1,6 +1,7 @@
+/* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./*.{html,js}", "./src/**/*.{html,js}"],
   theme: {
     colors: {
       selection: "rgba(255, 235, 60, 0.3);",
