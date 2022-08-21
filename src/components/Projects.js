@@ -16,7 +16,7 @@ export function Projects({ $app, initialState, title }) {
 							<p>${outerEl.position}</p>
 							<p class="-mt-1.5">${outerEl.date}</p>
 						</div>
-						<div class="md:w-3/5 pb-7 md:text-left text-center">
+						<div class="md:w-3/5 pb-7">
 						${outerEl.projects.reduce(
               (innerAcc, innerEl, i) =>
                 innerAcc +
@@ -24,20 +24,28 @@ export function Projects({ $app, initialState, title }) {
 										<div class="pb-16 ${i === outerEl.projects.length - 1 ? "" : "border-b"}">
 										${
                       innerEl.title
-                        ? `<h2 class="text-2xl font-bold mb-4
+                        ? `<h2 class="text-2xl font-bold mb-4 md:text-left text-center
 										${i === 0 ? `` : `pt-16`}">${innerEl.title}</h2>`
                         : ""
                     }
-											${innerEl.date ? `<p class="mb-6">${innerEl.date}</p>` : ""}
-											<h3 class="text-xl font-bold mb-2">Description</h3>
-											<p class="mb-4">${innerEl.description}</p>
-											<h3 class="text-xl font-bold mb-2">What did I do</h3>
+											${
+                        innerEl.date
+                          ? `<p class="mb-6 md:text-left text-center">${innerEl.date}</p>`
+                          : ""
+                      }
+											<h3 class="text-xl font-bold mb-2 md:text-left text-center">Description</h3>
+											<p class="mb-4 md:text-left text-center">${innerEl.description}</p>
+											<h3 class="text-xl font-bold mb-2 md:text-left text-center">What did I do</h3>
 											<ul class="mb-4">
 												${innerEl.todo.reduce((todoAcc, todo) => todoAcc + `<li>${todo}</li>`, "")}
 											</ul>
-											<h3 class="text-xl font-bold mb-2">Tech Stack</h3>
-											<p class="mb-4">${innerEl.stack}</p>
-											${innerEl.gif ? `<img class="inline-block" src="${innerEl.gif}" />` : ""} 
+											<h3 class="text-xl font-bold mb-2 md:text-left text-center">Tech Stack</h3>
+											<p class="mb-4 md:text-left text-center">${innerEl.stack}</p>
+											${
+                        innerEl.gif
+                          ? `<img class="inline-block md:text-left text-center" src="${innerEl.gif}" />`
+                          : ""
+                      } 
 										</div>
 								`,
               ""
