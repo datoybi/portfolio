@@ -5,7 +5,7 @@
     { "Blog": "https://datobi.tistory.com" },
     { "Email": "dsy0302@gmail.com" }
   ],
-  "aboutMe": "<span class='highlight'>꾸준히 성장</span>하는 것을 삶의 목표로 삼고, 1일 1커밋을 하고있습니다. 건설적인 피드백을 좋아합니다. <span class='inline-block highlight'>Clean</span> Code와 <span class='highlight'>Clean</span> Architecture에 대한 고민을 생활화합니다.",
+  "aboutMe": "<span class='highlight'>꾸준히 성장</span>하는 것을 삶의 목표로 삼고, 1일 1커밋을 하고있습니다. 건설적인 피드백을 좋아합니다. <span class='inline-block highlight'>Clean</span> Code에 대한 고민을 생활화합니다.",
   "workProject": [
     {
       "company": "고려 소프트웨어",
@@ -16,12 +16,11 @@
           "title": "BIM의 PMIS(Project Management Information System) 개발",
           "date": "2022.02 - 2022.08 <span class='gray-badge'>6 months</span>",
           "description": "Gantt Chart와 Unity 교량 모델을 바인딩하여 진척률 및 비용정보를 시뮬레이션할 수 있는 웹 프로그램 구현",
-          "todo": [
+          "whatIDid": [
             "프론트엔드, 백엔드 기술환경 세팅 및 전체 기능 구현",
             "레거시 청산 및 기존 비즈니스 유지보수",
-            "<a href='https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gantt/Overview/jQuery/Light/'>DevExtreme</a>의 Gantt Chart 라이브러리를 사용하여 구현",
-            "인터페이스를 컴포넌트화 및 모듈화하여 유지보수가 용이하게 구현",
-            "Responsive UI 적용",
+            "<a href='https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gantt/Overview/jQuery/Light/'>DevExtreme</a>의 Gantt Chart 라이브러리를 사용",
+            "쉬운 유지보수를 위해 인터페이스를 컴포넌트화 및 모듈화",
             "WebGL을 사용하여 Unity 컨테이너를 웹에 빌드",
             "간트 차트와 Unity 모델을 위한 데이터 모델링 및 API 개발",
             "개발 환경, 프로젝트의 구조, 코드 컨벤션, Policy 등에 대한 부분을 문서화"
@@ -30,15 +29,27 @@
           "gif": "./images/pmis.gif"
         },
         {
+          "title": "빌딩 관리 시스템(BMS) 모바일 API 개발",
+          "date": "2022.01 - 2022.05 <span class='gray-badge'>4 months</span>",
+          "description": "Unity로 구현된 빌딩 손상 및 보수 관리 모바일 앱의 RESTful API 개발",
+          "whatIDid": [
+            "JWT 토큰 기반의 로그인 인증",
+            "Depth가 7인 Tree 형태로 이루어진 빌딩의 CRUD 구현",
+            "빌딩 손상/보수 좌표 및 심볼, 손상/보수, 게시판 CRUD 기능 구현"
+          ],
+          "stack": "PostgreDB, NodeJS, ExpressJS",
+          "gif": ""
+        },
+        {
           "title": "<a href='https://www.koryosoft.co.kr/main.html'>홈페이지</a> 리뉴얼",
           "date": "2021.08 ~ 2021.12 <span class='gray-badge'>4 months</span>",
           "description": "레거시 홈페이지 리뉴얼",
-          "todo": [
+          "whatIDid": [
             "프로젝트 생성부터 배포까지 경험",
             "SEO 최적화 (RSS, Sitemap, robots.txt, 시멘틱 태그 배치)",
             "Responsive UI 적용",
-            "Summernote editor를 이용하여 게시판 CRUD 구현 및 Admin Page 구현",
-            "게시판, 문의사항을 위한 데이터 모델링 및 API 개발"
+            "게시판, 문의사항을 위한 CRUD 구현 및 Admin Page 구현",
+            "Summernote editor 적용"
           ],
           "stack": "JQuery, HTML5, CSS, MariaDB, NodeJS, ExpressJS"
         }
@@ -55,7 +66,10 @@
           "title": "",
           "date": "",
           "description": "현재 보고있는 포트폴리오 페이지 구현",
-          "todo": ["상태관리를 이용하여 재사용성을 높임", "Responsive UI 적용"],
+          "whatIDid": [
+            "상태관리를 이용하여 재사용성을 높임",
+            "Responsive UI 적용"
+          ],
           "stack": "Vanilla Javascript, HTML5, TailwindCSS, ESLint",
           "gif": ""
         }
