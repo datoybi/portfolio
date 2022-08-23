@@ -660,10 +660,6 @@ a:hover {
   color: #222;
 }
 
-.float-right {
-  float: right;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -691,6 +687,10 @@ a:hover {
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.block {
+  display: block;
 }
 
 .inline-block {
@@ -735,10 +735,6 @@ a:hover {
 
 .break-words {
   overflow-wrap: break-word;
-}
-
-.border {
-  border-width: 1px;
 }
 
 .border-y {
@@ -786,6 +782,10 @@ a:hover {
 
 .pb-7 {
   padding-bottom: 1.75rem;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-center {
@@ -873,6 +873,16 @@ a:hover {
   background-color: rgba(255, 235, 60, 0.3);;
 }
 
+@media (min-width: 640px) {
+  .sm\:text-left {
+    text-align: left;
+  }
+
+  .sm\:text-center {
+    text-align: center;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:w-2\/5 {
     width: 40%;
@@ -893,5 +903,9 @@ a:hover {
 
   .md\:text-left {
     text-align: left;
+  }
+
+  .md\:text-center {
+    text-align: center;
   }
 }

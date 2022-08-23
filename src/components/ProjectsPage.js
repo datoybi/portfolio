@@ -38,14 +38,14 @@ export function ProjectsPage({ $app, initialState, title }) {
 											<h3 class="text-xl font-bold mb-2 md:text-left text-center">Description</h3>
 											<p class="mb-4 md:text-left text-center">${innerEl.description}</p>
 											<h3 class="text-xl font-bold mb-2 md:text-left text-center">What did I do</h3>
-											<ul class="mb-4">
+											<ul class="mb-4 sm:text-center md:text-left text-left">
 												${innerEl.whatIDid.map((element) => `<li>${element}</li>`).join("")}
 											</ul>
 											<h3 class="text-xl font-bold mb-2 md:text-left text-center">Tech Stack</h3>
 											<p class="mb-4 md:text-left text-center">${innerEl.stack}</p>
 											${
                         innerEl.gif
-                          ? `<img class="inline-block md:text-left text-center" src="${innerEl.gif}" />`
+                          ? `<img class="mx-auto block md:text-left text-center" src="${innerEl.gif}" />`
                           : ""
                       } 
 										</div>
