@@ -693,10 +693,6 @@ a:hover {
   display: block;
 }
 
-.inline-block {
-  display: inline-block;
-}
-
 .inline {
   display: inline;
 }
@@ -874,10 +870,6 @@ a:hover {
 }
 
 @media (min-width: 640px) {
-  .sm\:text-left {
-    text-align: left;
-  }
-
   .sm\:text-center {
     text-align: center;
   }
@@ -903,9 +895,5 @@ a:hover {
 
   .md\:text-left {
     text-align: left;
-  }
-
-  .md\:text-center {
-    text-align: center;
   }
 }

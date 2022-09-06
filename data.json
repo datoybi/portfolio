@@ -58,19 +58,22 @@
   ],
   "personalProject": [
     {
-      "company": "<a href='https://github.com/datoybi/portfolio'>포트폴리오</a>",
+      "company": "<a href='https://www.datoybi.com/'>블로그</a>",
       "position": "",
-      "date": "",
+      "date": "2022.9 - 계속 개발 중",
       "projects": [
         {
           "title": "",
           "date": "",
-          "description": "현재 보고있는 포트폴리오 페이지 구현",
+          "description": "Gatsby로 개인 블로그 구현",
           "whatIDid": [
-            "상태관리를 이용하여 재사용성을 높임",
-            "Responsive UI 적용"
+            "Responsive UI 적용",
+            "검색앤진 최적화 (Canonical link element, Meta tag)",
+            "웹 접근성 향상(Sitemap, robots.txt, Semantic Tag)",
+            "Utterances를 이용한 댓글 기능 구현",
+            "Infinity Scroll 구현"
           ],
-          "stack": "Vanilla Javascript, HTML5, TailwindCSS, ESLint",
+          "stack": "GatsbyJS, TypeScript, GraphQL, Emotion, ESLint, Prettier, Netlify",
           "gif": ""
         }
       ]
