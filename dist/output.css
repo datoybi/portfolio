@@ -603,6 +603,10 @@ ul {
   margin-left: 1.2rem;
 }
 
+li {
+  margin-bottom: 4px;
+}
+
 li::marker {
   color: #f8cd07;
 }
@@ -718,7 +722,7 @@ a:hover {
 }
 
 .max-w-45\.5 {
-  max-width: 45.5rem;
+  max-width: 66rem;
 }
 
 .table-auto {
@@ -801,6 +805,11 @@ a:hover {
   line-height: 1.75rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -809,11 +818,6 @@ a:hover {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .text-xl {

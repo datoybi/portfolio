@@ -9,7 +9,7 @@ module.exports = {
       link: "rgba(0,0,0,0.07);",
     },
     maxWidth: {
-      45.5: "45.5rem",
+      45.5: "66rem",
     },
     extend: {
       fontFamily: {

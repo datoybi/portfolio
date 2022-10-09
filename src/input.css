@@ -22,6 +22,10 @@
     margin-left: 1.2rem;
   }
 
+  li {
+    margin-bottom: 4px;
+  }
+
   li::marker {
     color: #f8cd07;
   }
@@ -80,3 +84,5 @@
   padding-right: 0.2rem;
   font-size: 0.7rem;
 }
+
+/* npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch */
