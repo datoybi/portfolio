@@ -780,6 +780,10 @@ a:hover {
   padding-bottom: 4rem;
 }
 
+.pt-7 {
+  padding-top: 1.75rem;
+}
+
 .pb-7 {
   padding-bottom: 1.75rem;
 }
@@ -856,6 +860,8 @@ a:hover {
   padding-right: 0.2rem;
   font-size: 0.7rem;
 }
+
+/* npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch */
 
 .selection\:bg-selection *::-moz-selection {
   background-color: rgba(255, 235, 60, 0.3);;

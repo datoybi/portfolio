@@ -1,4 +1,3 @@
-
 {
   "name": "윤다솜",
   "contacts": [
@@ -6,7 +5,7 @@
     { "Blog": "http://www.datoybi.com/" },
     { "Email": "dsy0302@gmail.com" }
   ],
-  "aboutMe": "<span class='highlight'>꾸준히 성장</span>하는 것을 삶의 목표로 삼고, 1일 1커밋을 하고있습니다. 건설적인 피드백을 좋아합니다. <br/>제 코드로 작성한 <span class='highlight'>비즈니스 가치</span>가 무엇인지에 대한 고민을 생활화 합니다.",
+  "aboutMe": "<span class='highlight'>꾸준히 성장</span>하는 것을 삶의 목표로 삼고, 1일 1커밋을 하고있습니다. 건설적인 피드백을 좋아합니다. <br/>제가 작성한 코드의 <span class='highlight'>비즈니스 가치</span>가 무엇인지에 대한 고민을 생활화 합니다.",
   "workProject": [
     {
       "company": "고려 소프트웨어",
@@ -84,16 +83,16 @@
   ],
   "others": [
     {
+      "title": "<span class='highlight'>TDD</span>, 클린 코드 with JavaScript 4기",
+      "subTitle": "NextStep",
+      "date": "2022.10.31 ~ 2022.12.25 (진행중)",
+      "description": "테스트 주도 개발과 클린 코드에 친숙해지기 위해 미션과 피드백&코드리뷰를 받으며 클린 코드를 작성하는 방법과 테스트 주도 개발에 대한 역량을 길렀습니다."
+    },
+    {
       "title": "프론트앤드 개발을 위한 자바스크립트 <span class='highlight'>코드리뷰</span>",
       "subTitle": "Programmers",
       "date": "2022.06 ~ 2022.07",
       "description": "더 나은 코드를 짜기 위해 프로그래머스에서 주최하는 자바스크립트 코드리뷰 프로그램에 참여했습니다. 코드리뷰를 받으며 상태관리, 클린 코드에 대해 배울 수 있었습니다."
-    },
-    {
-      "title": "Blog",
-      "subTitle": "Author, Maintainer",
-      "date": "2021.06. ~ 현재",
-      "description": "<a href='https://datobi.tistory.com' target='_black'>개발 꿈나무</a>라는 개인 블로그를 1년 넘게 운영하며 소통하고 있습니다. (현재는 <a href='https://www.datoybi.com/' target='_black'>some.log</a>) 공부한 것들을 블로그에 포스팅함으로써 한 번 더 정리를 하게 되고 배운것을 공유하며 건설적인 피드백을 받고 있습니다."
     },
     {
       "title": "Centennial College",
@@ -108,5 +107,5 @@
       "description": "소프트웨어공학과에서 3년간 공부하며 컴퓨터구조, 자료구조, 컴퓨터네트워크, 웹 프로그래밍 등의 과목을 이수하였습니다. 해당 과목들을 이수하며 개발자의 역량을 쌓았습니다."
     }
   ],
-  "updateDate": "2022.10.09"
+  "updateDate": "2022.11.13"
 }

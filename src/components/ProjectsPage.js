@@ -10,7 +10,7 @@ export function ProjectsPage({ $app, initialState, title }) {
 		${this.state.reduce(
       (outerAcc, outerEl) =>
         outerAcc +
-        `<div class="flex md:flex-row flex-col border-b">
+        `<div class="flex md:flex-row flex-col border-b pt-7">
 						<div class="md:w-2/5 pb-7 md:text-left text-center">
 							<h2 class="text-2xl font-bold mb-4">${outerEl.company}</h2>
 							<p>${outerEl.position}</p>
