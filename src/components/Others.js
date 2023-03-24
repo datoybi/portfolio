@@ -14,7 +14,7 @@ export function Others({ $app, initialState }) {
             element.title
           }</h2>
 						<p>${element.subTitle}</p>
-						<p class="-mt-1.5 mb-6">${element.date}</p>
+						<p class="-mt-1.6 mb-6">${element.date}</p>
 						<p>${element.description}</p>
 					</div>`,
         ""

@@ -22,7 +22,7 @@
             "WebGL을 이용하여 Unity Container를 웹에 빌드하고, Unity에서 발생한 이벤트를 핸들링했습니다.",
             "변수 네이밍을 개선하고, 프로젝트 구조를 조금 더 세분화 하여 유지보수성을 높였습니다.",
             "차트 표출시, 중복코드를 삭제하고 공통함수를 모듈화하여 재사용성을 높였습니다.",
-            "간트 차트, 교량 모델 DB Data의 CRUD API를 구현했습니다.",
+            "간트 차트, 교량 모델 DB Data의 API를 구현했습니다.",
             "개발 환경, 프로젝트의 구조, 코드 컨벤션, Policy 등에 대한 부분을 문서화 하였습니다."
           ],
           "stack": "JQuery, Vanilla Javascript, HTML, CSS, PostgreDB, NodeJS, ExpressJS, ESLint, Prettier",
@@ -36,7 +36,7 @@
             "<a href='https://datobi.tistory.com/61'>계층이 없는 교량 모델의 데이터를 가공하여 Tree 형태의 Navigation UI를 구현했습니다.</a>",
             "3개의 Select box와 검색어를 입력한 값으로 검색 기능을 구현했습니다.",
             "JSON Web Token을 이용하여 Unity와 토큰을 주고받으며 로그인 인증을 처리했습니다.",
-            "교량 모델에 표시한 손상, 보수 위치의 좌표를 포함한 관련 정보들의 CRUD API를 구현했습니다."
+            "교량 모델에 표시한 손상, 보수 위치의 좌표를 포함한 관련 정보의 API를 구현했습니다."
           ],
           "stack": "JQuery, HTML, CSS, PostgreDB, NodeJS, ExpressJS",
           "gif": "./images/bms.jpg"
@@ -50,7 +50,7 @@
             "<a href='https://summernote.org/'>Summernote editor</a>를 게시글 작성에 적용하였습니다.",
             "RSS, Sitemap, robots.txt, 시멘틱 태그 배치에 신경을 써서 검색 앤진을 최적화 하였습니다.",
             "Responsive UI을 적용했습니다.",
-            "게시판, 문의사항을 위한 데이터 모델링 및 CRUD를 구현했습니다."
+            "게시판, 문의사항을 위한 데이터 모델링 및 api를 구현했습니다."
           ],
           "stack": "JQuery, HTML5, CSS, MariaDB, NodeJS, ExpressJS"
         }
@@ -59,58 +59,59 @@
   ],
   "personalProject": [
     {
-      "company": "<a href='https://github.com/With-Pet-Project'>위드펫</a>",
+      "company": "<a href='https://github.com/datoybi/with-pet'>with pet</a>",
       "position": "",
       "date": "2023.01 - 계속 구현중",
       "projects": [
         {
           "title": "",
           "date": "",
-          "description": "요즘 trend의 지표를 크롤링한 웹 사이트",
+          "description": "반려동물을 위한 건강, 지출비용을 관리할 수있는 웹 어플리케이션",
           "whatIDid": [
-            "<a href='https://www.datoybi.com/Blog-lighthouse-optimization/'>Lighthouse 점수를 86점에서 100점으로 향상시켜 성능을 개선했습니다.</a>",
-            "Infinity Scroll과 lazy loading을 구현하여 게시글 로딩에 부하를 줄였습니다.",
-            "<a href='https://www.datoybi.com/Fonts-flicker-on-load-in-gatsby/'>페이지 이동시 폰트 깜빡임의 이슈</a>를 해결하고, <a href='https://www.datoybi.com/Web-font-optimization/'>폰트의 용량을 줄여 최적화</a>를 하였습니다.",
-            "Canonical link element, Meta tag를 이용하여 검색앤진을 최적화하였습니다.",
-            "Sitemap, robots.txt, Semantic Tag을 사용하여 웹 접근성을 향상시켰습니다.",
-            "Utterances를 이용한 댓글 기능을 구현하였습니다."
+            "React Query를 이용하여 캐싱, 값 업데이트, 에러핸들링 등 비동기 처리를 하였습니다.",
+            "카카오의 OAuth2.0 소셜 로그인과 로컬 로그인을 도입하였고, Axios Interceptors를 이용하여 인증/인가를 위한 RefreshToken과 AccessToken을 처리하였습니다.",
+            "카카오 맵 api 이용하여 근처 동물병원의 리스트를 표출하고 현재위치에서 재검색 버튼 구현하였습니다.",
+            "<a href='https://www.datoybi.com/error-handling-with-react-query/'>Suspense, Error boundary를 사용하여 중앙 집중식으로 API 에러를 핸들링 하였습니다.</a>",
+            "<a href='https://www.datoybi.com/cypress-react-db-seed/'>cypress를 이용하여 DB Seed를 하고 e2e 테스트를 진행하였습니다.</a>",
+            "재사용 가능한 캘린더 컴포넌트 구현하고 월별로 데이터를 바인딩 하였습니다.",
+            "중복되는 컴포넌트는 공통 컴포넌트로 분리해 재사용성과 유지보수성을 높였습니다."
           ],
-          "stack": "GatsbyJS, TypeScript, GraphQL, Emotion, ESLint, Prettier, Netlify",
-          "gif": ""
+          "stack": "ReactJS, React Query, TypsScript, Styled Component, Sass, Msw, Cypress, ESLint, Prettier, Vercel",
+          "gif": "./images/with-pet.gif"
         }
       ]
     },
     {
-      "company": "<a href='https://github.com/datoybi/trendz'>Trendz</a>",
+      "company": "<a href='https://github.com/datoybi/trendz'>trendz</a>",
       "position": "",
       "date": "2022.11 - 2023.01",
       "projects": [
         {
           "title": "",
           "date": "",
-          "description": "요즘 trend의 지표를 크롤링한 웹 사이트 구현",
+          "description": "요즘 trend의 지표를 크롤링한 웹 사이트",
           "whatIDid": [
             "cheerio, puppeter를 이용하여 크롤링을 구현하였습니다.",
-            "redux와 reduxjs/toolkit을 이용하여 전역적으로 상태를 관리하였습니다.",
+            "redux와 reduxjs/toolkit을 이용하여 props 복잡도를 개선하였습니다.",
             "<a href='https://www.datoybi.com/http-proxy-middleware/'>develop 환경과 production 환경일 때 CORS 에러 핸들링하였습니다.</a>",
             "carousel 슬라이드 및 더보기 기능, navigation 기능을 구현했습니다.",
             "Responsive UI를 적용했습니다.",
             "특정 시간마다 데이터를 크롤링하고, 크롤링한 데이터를 반환하는 api를 구현하였습니다."
           ],
-          "stack": "ReactJs, TypeScript, cheerio, puppeter, Emotion, cypress, ESLint, Prettier, Netlify",
+          "stack": "ReactJs, Redux, TypeScript, Cypress, Emotion, Cypress, NodeJS, ExpressJS, Cheerio, Puppeter, ESLint, Prettier, Netlify",
           "gif": "./images/trendz.gif"
         }
       ]
     },
     {
-      "company": "<a href='https://www.datoybi.com/'>블로그</a>",
+      "company": "<a href='https://github.com/datoybi/blog'>blog</a>",
       "position": "",
-      "date": "2022.9 - 계속 개발 중",
+      "date": "2022.9 -2022.11",
       "projects": [
         {
           "title": "",
           "date": "",
-          "description": "Gatsby.js로 개인 블로그 구현",
+          "description": "개인 블로그 구현",
           "whatIDid": [
             "<a href='https://www.datoybi.com/Blog-lighthouse-optimization/'>Lighthouse 점수를 86점에서 100점으로 향상시켜 성능을 개선했습니다.</a>",
             "Infinity Scroll과 lazy loading을 구현하여 게시글 로딩에 부하를 줄였습니다.",
@@ -141,9 +142,15 @@
     {
       "title": "Centennial College",
       "subTitle": "Software engineering technology",
-      "date": "2020.07. ~ 2021.05",
+      "date": "2020.07. ~ 2021.07",
       "description": "웹 프로그래밍, 이산수학, 알고리즘 등의 과목을 이수했으나, 코로나로 인해 중퇴를 했습니다."
+    },
+    {
+      "title": "서일대학교",
+      "subTitle": "소프트웨어공학과",
+      "date": "2014.03. ~ 2017.02",
+      "description": "소프트웨어공학과에서 3년간 공부하며 컴퓨터구조, 자료구조, 컴퓨터네트워크, 웹 프로그래밍 등의 과목을 이수하였습니다. 해당 과목들을 이수하며 개발자의 역량을 쌓았습니다."
     }
   ],
-  "updateDate": "2023.02.19"
+  "updateDate": "2023.03.20"
 }
