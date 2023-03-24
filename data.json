@@ -91,10 +91,10 @@
           "date": "",
           "description": "요즘 trend의 지표를 크롤링한 웹 사이트",
           "whatIDid": [
-            "cheerio, puppeter를 이용하여 크롤링을 구현하였습니다.",
             "redux와 reduxjs/toolkit을 이용하여 props 복잡도를 개선하였습니다.",
             "<a href='https://www.datoybi.com/http-proxy-middleware/'>develop 환경과 production 환경일 때 CORS 에러 핸들링하였습니다.</a>",
             "carousel 슬라이드 및 더보기 기능, navigation 기능을 구현했습니다.",
+            "cheerio, puppeter를 이용하여 크롤링을 구현하였습니다.",
             "Responsive UI를 적용했습니다.",
             "특정 시간마다 데이터를 크롤링하고, 크롤링한 데이터를 반환하는 api를 구현하였습니다."
           ],
