@@ -61,7 +61,7 @@
     {
       "company": "<a href='https://github.com/datoybi/with-pet'>with pet</a>",
       "position": "",
-      "date": "2023.01 - 계속 구현중",
+      "date": "2023.01 - 2023.03",
       "projects": [
         {
           "title": "",
@@ -98,7 +98,7 @@
             "Responsive UI를 적용했습니다.",
             "특정 시간마다 데이터를 크롤링하고, 크롤링한 데이터를 반환하는 api를 구현하였습니다."
           ],
-          "stack": "ReactJs, Redux, TypeScript, Cypress, Emotion, Cypress, NodeJS, ExpressJS, Cheerio, Puppeter, ESLint, Prettier, Netlify",
+          "stack": "ReactJs, Redux, TypeScript, Emotion, Cypress, NodeJS, ExpressJS, Cheerio, Puppeter, ESLint, Prettier, Netlify",
           "gif": "./images/trendz.gif"
         }
       ]
