@@ -70,13 +70,13 @@
           "whatIDid": [
             "React Query를 이용하여 캐싱, 값 업데이트, 에러핸들링 등 비동기 처리를 하였습니다.",
             "카카오의 OAuth2.0 소셜 로그인과 로컬 로그인을 도입하였고, Axios Interceptors를 이용하여 인증/인가를 위한 RefreshToken과 AccessToken을 처리하였습니다.",
-            "카카오 맵 api 이용하여 근처 동물병원의 리스트를 표출하고 현재위치에서 재검색 버튼 구현하였습니다.",
+            "카카오 맵 api 이용하여 근처 동물병원의 리스트를 표출하고 현재위치에서 재검색 버튼을 구현하였습니다.",
+            "디자이너와 협업하며 Figma를 이용하여 마크업을 작성하였습니다.",
             "<a href='https://www.datoybi.com/error-handling-with-react-query/'>Suspense, Error boundary를 사용하여 중앙 집중식으로 API 에러를 핸들링 하였습니다.</a>",
             "<a href='https://www.datoybi.com/cypress-react-db-seed/'>cypress를 이용하여 DB Seed를 하고 e2e 테스트를 진행하였습니다.</a>",
-            "재사용 가능한 캘린더 컴포넌트 구현하고 월별로 데이터를 바인딩 하였습니다.",
-            "중복되는 컴포넌트는 공통 컴포넌트로 분리해 재사용성과 유지보수성을 높였습니다."
+            "재사용 가능한 캘린더 컴포넌트를 공통 컴포넌트로 구현하여 재사용성과 유지보수성을 높였습니다."
           ],
-          "stack": "ReactJS, React Query, TypsScript, Styled Component, Sass, Msw, Cypress, ESLint, Prettier, Vercel",
+          "stack": "ReactJS, React Query, TypeScript, Styled Component, Msw, Cypress, ESLint, Prettier, Vercel",
           "gif": "./images/with-pet.gif"
         }
       ]
@@ -152,5 +152,5 @@
       "description": "소프트웨어공학과에서 3년간 공부하며 컴퓨터구조, 자료구조, 컴퓨터네트워크, 웹 프로그래밍 등의 과목을 이수하였습니다. 해당 과목들을 이수하며 개발자의 역량을 쌓았습니다."
     }
   ],
-  "updateDate": "2023.03.20"
+  "updateDate": "2023.04.15"
 }

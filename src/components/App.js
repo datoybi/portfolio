@@ -19,15 +19,15 @@ export function App({ $app, initialState }) {
   });
   new ProjectsPage({
     $app,
-    initialState: this.state.personalProject,
-    // title: "Side Projects",
-    title: "Personal & Team Experience",
-  }); // Personal Expeience
-  new ProjectsPage({
-    $app,
     initialState: this.state.workProject,
     title: "Work Experience",
-  }); // Work Expeience
+  }); // Work Experience
+  new ProjectsPage({
+    $app,
+    initialState: this.state.personalProject,
+    // title: "Personal & Team Experience",
+    title: "Side Projects",
+  }); // Personal Experience
   new Others({ $app, initialState: this.state.others });
   new Footer({ $app, initialState: this.state.updateDate });
 }
