@@ -28,6 +28,10 @@ export function App({ $app, initialState }) {
     // title: "Personal & Team Experience",
     title: "Side Projects",
   }); // Personal Experience
-  new Others({ $app, initialState: this.state.others });
+  new Others({
+    $app,
+    initialState: this.state.others,
+    title: "Other Experience",
+  });
   new Footer({ $app, initialState: this.state.updateDate });
 }

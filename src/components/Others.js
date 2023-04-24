@@ -1,11 +1,11 @@
-export function Others({ $app, initialState }) {
+export function Others({ $app, initialState, title }) {
   this.state = initialState;
   this.$target = $app.querySelector("article");
 
   this.render = () => {
     let htmlString = this.$target.innerHTML;
     htmlString += `<section class="pt-16">
-			<h1 class="text-5xl font-bold mb-11">Other Experience</h1>
+			<h1 class="text-5xl font-bold mb-11">${title}</h1>
 			${this.state.reduce(
         (acc, element, i) =>
           acc +
