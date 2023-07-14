@@ -61,7 +61,7 @@
     {
       "company": "<a href='https://github.com/datoybi/with-pet'>with pet</a>",
       "position": "",
-      "date": "",
+      "date": "2023.01 - 2023.04",
       "projects": [
         {
           "title": "",
@@ -84,7 +84,7 @@
     {
       "company": "<a href='https://github.com/datoybi/trendz'>trendz</a>",
       "position": "",
-      "date": "",
+      "date": "2022.11 - 2023.02",
       "projects": [
         {
           "title": "",
@@ -106,11 +106,11 @@
     {
       "company": "<a href='https://github.com/datoybi/blog'>blog</a>",
       "position": "",
-      "date": "",
+      "date": "2022.9 - 2023.11",
       "projects": [
         {
           "title": "",
-          "date": "",
+          "date": "2022.9 -2022.11",
           "description": "개인 블로그 구현",
           "whatIDid": [
             "<a href='https://www.datoybi.com/Blog-lighthouse-optimization/'>Lighthouse 점수를 86점에서 100점으로 향상시켜 성능을 개선했습니다.</a>",
@@ -150,6 +150,12 @@
       "subTitle": "소프트웨어공학과",
       "date": "2014.03. ~ 2017.02",
       "description": "소프트웨어공학과에서 3년간 공부하며 컴퓨터구조, 자료구조, 컴퓨터네트워크, 웹 프로그래밍 등의 과목을 이수하였습니다. 해당 과목들을 이수하며 개발자의 역량을 쌓았습니다."
+    },
+    {
+      "title": "워킹 홀리데이",
+      "subTitle": "캐나다",
+      "date": "2019.01. ~ 2020.02",
+      "description": "워킹 홀리데이를 하며 나라는 정체성을 확립하고 다양성과 다름을 배웠습니다."
     }
   ],
   "updateDate": "2023.07.14"
