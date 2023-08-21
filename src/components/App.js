@@ -30,6 +30,11 @@ export function App({ $app, initialState }) {
   }); // Personal Experience
   new Others({
     $app,
+    initialState: this.state.education,
+    title: "Education",
+  });
+  new Others({
+    $app,
     initialState: this.state.others,
     title: "Other Experience",
   });

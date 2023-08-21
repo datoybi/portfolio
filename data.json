@@ -126,19 +126,7 @@
       ]
     }
   ],
-  "others": [
-    {
-      "title": "<a href='https://github.com/datoybi/js-vending-machine'>TDD, 클린 코드 with JavaScript 4기</a>",
-      "subTitle": "NextStep",
-      "date": "2022.10 ~ 2022.12",
-      "description": "테스트 주도 개발과 클린 코드에 친숙해지기 위해 미션을 진행하며 피드백, 코드리뷰를 받았습니다. 클린 코드와 클린 아키텍쳐를 작성하는 방법과 테스트 주도 개발에 대한 역량을 길렀습니다."
-    },
-    {
-      "title": "프론트앤드 개발을 위한 자바스크립트 코드리뷰",
-      "subTitle": "Programmers",
-      "date": "2022.06 ~ 2022.07",
-      "description": "더 나은 코드를 짜기 위해 프로그래머스에서 주최하는 자바스크립트 코드리뷰 프로그램에 참여했습니다. 코드리뷰를 받으며 상태관리, 클린 코드에 대해 배울 수 있었습니다."
-    },
+  "education": [
     {
       "title": "Centennial College",
       "subTitle": "Software engineering technology",
@@ -152,17 +140,43 @@
       "description": "소프트웨어공학과에서 3년간 공부하며 컴퓨터구조, 자료구조, 컴퓨터네트워크, 웹 프로그래밍 등의 과목을 이수하였습니다. 해당 과목들을 이수하며 개발자의 역량을 쌓았습니다."
     },
     {
-      "title": "워킹 홀리데이",
-      "subTitle": "캐나다",
-      "date": "2019.01. ~ 2020.02",
+      "title": "",
+      "subTitle": "",
+      "date": "",
       "description": ""
+    }
+  ],
+  "others": [
+    {
+      "title": "원티드 프리온보딩 인턴십 12기",
+      "subTitle": "원티드",
+      "date": "2023.08 ~ 진행중",
+      "description": "기업 과제 수행 및 React hooks에 이해도를 높이고, CI/CD, Typescript, Testing을 학습하였습니다."
+    },
+    {
+      "title": "<a href='https://github.com/datoybi/js-vending-machine'>TDD, 클린 코드 with JavaScript 4기</a>",
+      "subTitle": "NextStep",
+      "date": "2022.10 ~ 2022.12",
+      "description": "테스트 주도 개발과 클린 코드에 친숙해지기 위해 미션을 진행하며 피드백, 코드리뷰를 받았습니다. 클린 코드와 클린 아키텍쳐를 작성하는 방법과 테스트 주도 개발에 대한 역량을 길렀습니다."
+    },
+    {
+      "title": "프론트앤드 개발을 위한 자바스크립트 코드리뷰",
+      "subTitle": "Programmers",
+      "date": "2022.06 ~ 2022.07",
+      "description": "더 나은 코드를 짜기 위해 프로그래머스에서 주최하는 자바스크립트 코드리뷰 프로그램에 참여했습니다. 코드리뷰를 받으며 상태관리, 클린 코드에 대해 배울 수 있었습니다."
     },
     {
       "title": "정보처리산업기사",
       "subTitle": "한국산업인력공단",
       "date": "2016.05",
       "description": ""
+    },
+    {
+      "title": "워킹 홀리데이",
+      "subTitle": "캐나다",
+      "date": "2019.01. ~ 2020.02",
+      "description": ""
     }
   ],
-  "updateDate": "2023.07.14"
+  "updateDate": "2023.08.21"
 }
