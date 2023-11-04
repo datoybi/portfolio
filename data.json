@@ -28,7 +28,7 @@
         {
           "title": "<a href='https://zemiverse.com/'>Zemiverse 개발</a>",
           "date": "2023.10 <span class='gray-badge'>1 months</span>",
-          "description": "앱 내에 게임으로 이동하고, 게임에서 사용하는 아이템을 관리하고, 커뮤니티가 있는 홈페이지 개발",
+          "description": "앱 내에 게임으로 이동하고, 게임에서 사용하는 아이템을 관리하고, 커뮤니티가 있는 홈페이지",
           "whatIDid": ["웹에서 앱으로 이동하는 딥링크를 구현하였습니다."],
           "stack": "ReactJS, Redux, Scss, Git"
         },
