@@ -17,7 +17,7 @@
           "date": "2023.09 - 2023.11 <span class='gray-badge'>3 months</span>",
           "description": "Zemiverse의 admin 페이지 개발",
           "whatIDid": [
-            "로컬 로그인 및 계정 관리별 그룹별 권한을 부여하고 제거하는 부분을 구현하였습니다.",
+            "로컬 로그인 및 계정의 그룹별 권한을 부여하고 제거하는 부분을 구현하였습니다.",
             "기존 Redux Boilerplate를 React query와 Recoil로 마이그레이션하여 API 호출 수를 10% 감소시키고 <span class='highlight'>렌더링 속도를 120% 개선</span>하였습니다.",
             "GNB, Sidebar를 최적화 하였습니다.",
             "<a href='https://www.datoybi.com/pagination/'>버튼 개수와 게시물 수를 변경할 수 있는 custom pagination을 구현하였습니다.</a>"
