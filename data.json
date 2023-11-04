@@ -8,6 +8,42 @@
   "aboutMe": "<span class='highlight'>꾸준히 성장</span>하는 것을 삶의 목표로 삼고, 1일 1커밋을 하고있습니다. 건설적인 피드백을 좋아합니다. <br/>제가 작성한 코드의 <span class='highlight'>비즈니스 가치</span>가 무엇인지에 대한 고민을 생활화 합니다.",
   "workProject": [
     {
+      "company": "<a href='https://www.nextor.ai/'>Nextor</a>",
+      "position": "Frontend Developer",
+      "date": "2023.08 - 진행중",
+      "projects": [
+        {
+          "title": "Admin 페이지 개발",
+          "date": "2023.08 - 2023.09 <span class='gray-badge'>1 months</span>",
+          "description": "Zemiverse의 admin 페이지 개발",
+          "whatIDid": [
+            "로컬 로그인 및 계정 관리별 그룹별 권한을 부여하고 제거하는 부분을 구현하였습니다.",
+            "기존 Redux Boilerplate를 React query와 Recoil로 마이그레이션하여 API 호출 수를 10% 감소시키고 <span class='highlight'>렌더링 속도를 120% 개선</span>하였습니다."
+          ],
+          "stack": "ReactJS, Redux, React Query, Recoil, Scss, Git"
+        },
+        {
+          "title": "<a href='https://zemiverse.com/'>Zemiverse 개발</a>",
+          "date": "2023.09 - 2023.10 <span class='gray-badge'>1 months</span>",
+          "description": "앱 내에 게임으로 이동하고, 게임에서 사용하는 아이템을 관리하고, 커뮤니티가 있는 홈페이지 개발",
+          "whatIDid": ["웹에서 앱으로 이동하는 딥링크를 구현하였습니다."],
+          "stack": "ReactJS, Redux, Scss, Git"
+        },
+        {
+          "title": "웹뷰 개발",
+          "date": "2023.09 - 2023.10 <span class='gray-badge'>1 months</span>",
+          "description": "Unity 웹뷰에서 다른 월드로 이동하는 월드 리스트 페이지, 상세 페이지 구현",
+          "whatIDid": [
+            "카테고리별로 월드를 구분하고, 검색어 기능을 구현하였습니다.",
+            "무한스크롤을 구현하였습니다.",
+            "모바일과 데스크톱 반응형 페이지 구현 및 모바일 기기별로 대응을 하였습니다.",
+            "크로스 브라우징 대응하였습니다."
+          ],
+          "stack": "ReactJS, Redux, Scss, Git"
+        }
+      ]
+    },
+    {
       "company": "고려 소프트웨어",
       "position": "Fullstack Developer",
       "date": "2021.05 - 2022.08  <span class='gray-badge'>1.3 years</span>",
@@ -150,8 +186,8 @@
     {
       "title": "원티드 프리온보딩 인턴십 12기",
       "subTitle": "원티드",
-      "date": "2023.08 ~ 진행중",
-      "description": "기업 과제 수행 및 React hooks에 이해도를 높이고, CI/CD, Typescript, Testing을 학습하였습니다."
+      "date": "2023.08 ~ 2023.09",
+      "description": "기업 과제 수행 및 동료들과 코드에 대해 자유롭게 커뮤니케이션을하며 동료 학습을 경험하였습니다."
     },
     {
       "title": "<a href='https://github.com/datoybi/js-vending-machine'>TDD, 클린 코드 with JavaScript 4기</a>",
@@ -178,5 +214,5 @@
       "description": ""
     }
   ],
-  "updateDate": "2023.08.21"
+  "updateDate": "2023.11.04"
 }
