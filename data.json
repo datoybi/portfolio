@@ -5,26 +5,29 @@
     { "Blog": "http://www.datoybi.com/" },
     { "Email": "dsy0302@gmail.com" }
   ],
-  "aboutMe": "<span class='highlight'>꾸준히 성장</span>하는 것을 삶의 목표로 삼고, 1일 1커밋을 하고있습니다. 건설적인 피드백을 좋아합니다. <br/>제가 작성한 코드의 <span class='highlight'>비즈니스 가치</span>가 무엇인지에 대한 고민을 생활화 합니다.",
+  "aboutMe": "<span class='highlight'>꾸준히 성장</span>하는 것을 삶의 목표로 삼고, 건설적인 피드백을 좋아합니다. <br/>제가 작성한 코드의 <span class='highlight'>비즈니스 가치</span>가 무엇인지에 대한 고민을 생활화 합니다.",
   "workProject": [
     {
       "company": "<a href='https://www.nextor.ai/'>Nextor</a>",
       "position": "Frontend Developer",
-      "date": "2023.08 - 진행중",
+      "date": "2023.09 -   <span class='gray-badge'>3 months</span>",
       "projects": [
         {
           "title": "Admin 페이지 개발",
-          "date": "2023.08 - 2023.09 <span class='gray-badge'>1 months</span>",
+          "date": "2023.09 - 2023.11 <span class='gray-badge'>3 months</span>",
           "description": "Zemiverse의 admin 페이지 개발",
           "whatIDid": [
             "로컬 로그인 및 계정 관리별 그룹별 권한을 부여하고 제거하는 부분을 구현하였습니다.",
-            "기존 Redux Boilerplate를 React query와 Recoil로 마이그레이션하여 API 호출 수를 10% 감소시키고 <span class='highlight'>렌더링 속도를 120% 개선</span>하였습니다."
+            "기존 Redux Boilerplate를 React query와 Recoil로 마이그레이션하여 API 호출 수를 10% 감소시키고 <span class='highlight'>렌더링 속도를 120% 개선</span>하였습니다.",
+            "GNB, Sidebar를 최적화 하였습니다.",
+            "<a href='https://www.datoybi.com/pagination/'>버튼 개수와 게시물 수를 변경할 수 있는 custom pagination을 구현하였습니다.</a>"
           ],
-          "stack": "ReactJS, Redux, React Query, Recoil, Scss, Git"
+          "stack": "ReactJS, Redux, React Query, Recoil, Scss, Git",
+          "gif": "./images/admin.gif"
         },
         {
           "title": "<a href='https://zemiverse.com/'>Zemiverse 개발</a>",
-          "date": "2023.09 - 2023.10 <span class='gray-badge'>1 months</span>",
+          "date": "2023.10 <span class='gray-badge'>1 months</span>",
           "description": "앱 내에 게임으로 이동하고, 게임에서 사용하는 아이템을 관리하고, 커뮤니티가 있는 홈페이지 개발",
           "whatIDid": ["웹에서 앱으로 이동하는 딥링크를 구현하였습니다."],
           "stack": "ReactJS, Redux, Scss, Git"
@@ -36,10 +39,11 @@
           "whatIDid": [
             "카테고리별로 월드를 구분하고, 검색어 기능을 구현하였습니다.",
             "무한스크롤을 구현하였습니다.",
-            "모바일과 데스크톱 반응형 페이지 구현 및 모바일 기기별로 대응을 하였습니다.",
-            "크로스 브라우징 대응하였습니다."
+            "모바일과 데스크톱 기준 반응형 페이지를 구현하였습니다.",
+            "브라우저와 모바일 기기별로 크로스 브라우징 대응을 하였습니다."
           ],
-          "stack": "ReactJS, Redux, Scss, Git"
+          "stack": "ReactJS, Redux, Scss, Git",
+          "gif": "./images/webview.gif"
         }
       ]
     },
@@ -171,9 +175,9 @@
     },
     {
       "title": "서일대학교",
-      "subTitle": "소프트웨어공학과",
+      "subTitle": "인터넷정보과",
       "date": "2014.03. ~ 2017.02",
-      "description": "소프트웨어공학과에서 3년간 공부하며 컴퓨터구조, 자료구조, 컴퓨터네트워크, 웹 프로그래밍 등의 과목을 이수하였습니다. 해당 과목들을 이수하며 개발자의 역량을 쌓았습니다."
+      "description": "인터넷정보과(소프트웨어공학과)에서 3년간 공부하며 컴퓨터구조, 자료구조, 컴퓨터네트워크, 웹 프로그래밍 등의 과목을 이수하였습니다. 해당 과목들을 이수하며 개발자의 역량을 쌓았습니다."
     },
     {
       "title": "",
