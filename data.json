@@ -13,9 +13,9 @@
       "date": "2023.09 -   <span class='gray-badge'>3 months</span>",
       "projects": [
         {
-          "title": "Admin 페이지 개발",
+          "title": "Backoffice 개발",
           "date": "2023.09 - 2023.11 <span class='gray-badge'>3 months</span>",
-          "description": "Zemiverse의 admin 페이지 개발",
+          "description": "Zemiverse의 Backoffice 페이지 (admin 페이지) 개발",
           "whatIDid": [
             "로컬 로그인 및 계정의 그룹별 권한을 부여하고 제거하는 부분을 구현하였습니다.",
             "기존 Redux Boilerplate를 React query와 Recoil로 마이그레이션하여 API 호출 수를 10% 감소시키고 <span class='highlight'>렌더링 속도를 120% 개선</span>하였습니다.",
