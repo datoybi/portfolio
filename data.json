@@ -22,7 +22,7 @@
             "GNB, Sidebar를 최적화 하였습니다.",
             "<a href='https://www.datoybi.com/pagination/'>버튼 개수와 게시물 수를 변경할 수 있는 custom pagination을 구현하였습니다.</a>"
           ],
-          "stack": "ReactJS, Redux, React Query, Recoil, Scss, Git",
+          "stack": "ReactJS, Redux, React Query, Scss, Git",
           "gif": "./images/admin.gif"
         },
         {
