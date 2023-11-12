@@ -22,7 +22,7 @@
             "GNB, Sidebar를 최적화 하였습니다.",
             "<a href='https://www.datoybi.com/pagination/'>버튼 개수와 게시물 수를 변경할 수 있는 custom pagination을 구현하였습니다.</a>"
           ],
-          "stack": "ReactJS, Typescript, Redux, React Query, Scss, Git",
+          "stack": "ReactJS, Typescript, Redux, React Query, Scss",
           "gif": "./images/admin.gif"
         },
         {
@@ -30,7 +30,7 @@
           "date": "2023.10 <span class='gray-badge'>1 months</span>",
           "description": "앱 내에 게임으로 이동하고, 게임에서 사용하는 아이템을 관리하고, 커뮤니티가 있는 홈페이지",
           "whatIDid": ["웹에서 앱으로 이동하는 딥링크를 구현하였습니다."],
-          "stack": "ReactJS, Typescript, Redux, Scss, Git"
+          "stack": "ReactJS, Typescript, Redux, Scss"
         },
         {
           "title": "웹뷰 개발",
