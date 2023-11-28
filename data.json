@@ -17,7 +17,9 @@
           "date": "2023.09 - 2023.11 <span class='gray-badge'>3 months</span>",
           "description": "Zemiverse의 Backoffice 페이지 (admin 페이지) 개발",
           "whatIDid": [
-            "로컬 로그인 및 계정의 그룹별 권한을 부여하고 제거하는 부분을 구현하였습니다.",
+            "로컬 로그인을 구현하였습니다.",
+            "관리자 계정 생성 및 그룹별 권한을 부여하는 부분을 구현하였습니다.",
+            "이벤트 관리 게시판과 공지사항, 스크린샷 관리자 게시판을 구현하였습니다.",
             "비동기 관련 코드를 React query로 마이그레이션하여 <span class='highlight'>불필요한 API 호출을 감소</span>하였습니다.",
             "GNB, Sidebar를 최적화 하였습니다.",
             "<a href='https://www.datoybi.com/pagination/'>버튼 개수와 게시물 수를 변경할 수 있는 custom pagination을 구현하였습니다.</a>"
@@ -218,5 +220,5 @@
       "description": ""
     }
   ],
-  "updateDate": "2023.11.12"
+  "updateDate": "2023.11.28"
 }

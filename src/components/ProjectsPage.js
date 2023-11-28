@@ -21,20 +21,14 @@ export function ProjectsPage({ $app, initialState, title }) {
               (innerAcc, innerEl, i) =>
                 innerAcc +
                 `
-										<div class="pb-16 ${
-                      i === outerEl.projects.length - 1 ? "" : "border-b"
-                    }" id="projectContents">
+										<div class="pb-16 ${i === outerEl.projects.length - 1 ? "" : "border-b"}" id="projectContents">
 										${
                       innerEl.title
                         ? `<h2 class="text-2xl font-bold mb-4 md:text-left text-center
 										${i === 0 ? `` : `pt-16`}">${innerEl.title}</h2>`
                         : ""
                     }
-											${
-                        innerEl.date
-                          ? `<p class="mb-6 md:text-left text-center">${innerEl.date}</p>`
-                          : ""
-                      }
+											${innerEl.date ? `<p class="mb-6 md:text-left text-center">${innerEl.date}</p>` : ""}
 											<h3 class="text-xl font-bold mb-2 md:text-left text-center">Description</h3>
 											<p class="mb-4 md:text-left text-center">${innerEl.description}</p>
 											<h3 class="text-xl font-bold mb-2 md:text-left text-center">What did I do</h3>
@@ -43,11 +37,7 @@ export function ProjectsPage({ $app, initialState, title }) {
 											</ul>
 											<h3 class="text-xl font-bold mb-2 md:text-left text-center">Tech Stack</h3>
 											<p class="mb-4 md:text-left text-center">${innerEl.stack}</p>
-											${
-                        innerEl.gif
-                          ? `<img class="mx-auto block md:text-left text-center" src="${innerEl.gif}" />`
-                          : ""
-                      } 
+											${innerEl.gif ? `<img class="mx-auto block md:text-left text-center" src="${innerEl.gif}" />` : ""} 
 										</div>
 								`,
               ""
