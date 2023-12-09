@@ -21,10 +21,11 @@
             "관리자 계정 생성 및 그룹별 권한을 부여하는 부분을 구현하였습니다.",
             "이벤트 관리 게시판과 공지사항, 스크린샷 관리자 게시판을 구현하였습니다.",
             "비동기 관련 코드를 React query로 마이그레이션하여 <span class='highlight'>불필요한 API 호출을 감소</span>하였습니다.",
+            "Github Action을 이용하여 AWS CI/CD를 구축하였습니다.",
             "GNB, Sidebar를 최적화 하였습니다.",
             "<a href='https://www.datoybi.com/pagination/'>버튼 개수와 게시물 수를 변경할 수 있는 custom pagination을 구현하였습니다.</a>"
           ],
-          "stack": "ReactJS, Typescript, Redux, React Query, Scss",
+          "stack": "ReactJS, Typescript, Redux, React Query, Scss, Github",
           "gif": "./images/admin.gif"
         },
         {
