@@ -14,7 +14,7 @@
       "projects": [
         {
           "title": "Backoffice 개발",
-          "date": "2023.09 - 2023.11 <span class='gray-badge'>3 months</span>",
+          "date": "2023.09 - 2023.12 <span class='gray-badge'>4 months</span>",
           "description": "Zemiverse의 Backoffice 페이지 (admin 페이지) 개발",
           "whatIDid": [
             "로컬 로그인을 구현하였습니다.",
@@ -191,6 +191,12 @@
   ],
   "others": [
     {
+      "title": "오픈소스 기여 - MDN",
+      "subTitle": "페이지 번역 및 오타 수정",
+      "date": "",
+      "description": ""
+    },
+    {
       "title": "<a href='https://github.com/datoybi/js-vending-machine'>TDD, 클린 코드 with JavaScript 4기</a>",
       "subTitle": "NextStep",
       "date": "2022.10 ~ 2022.12",
@@ -209,5 +215,5 @@
       "description": ""
     }
   ],
-  "updateDate": "2023.12.09"
+  "updateDate": "2023.12.13"
 }
